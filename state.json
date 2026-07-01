@@ -2,9 +2,12 @@
   "2026-07-01:drop": [
     "AAPL",
     "AOT.BK",
+    "LUNR",
     "NVDA",
     "PTT.BK",
     "TSLA"
   ],
-  "2026-07-01:momentum": []
+  "2026-07-01:momentum": [
+    "VSAT"
+  ]
 }
