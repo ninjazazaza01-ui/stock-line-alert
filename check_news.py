@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Stock News Digest -> LINE Messaging API
-------------------------------------------
-ดึงข่าวล่าสุดของหุ้นแต่ละตัวใน stocks.json (ข้อมูลข่าวจาก Yahoo Finance
-ผ่าน yfinance ไม่ต้องขอ API key เพิ่ม) แล้วส่งสรุปเข้า LINE
-
-ออกแบบให้รันวันละ 2 ครั้ง (เช้า/เย็น) ตาม cron schedule ในไฟล์ workflow
-มีระบบกันข่าวซ้ำ - ถ้าข่าวเดิมถูกส่งไปแล้วในวันนั้น จะไม่ส่งซ้ำอีก
+Stock News Digest (Bullish Filters) -> LINE Messaging API
+----------------------------------------------------------
+1) ดึงข่าวล่าสุดจาก Yahoo Finance (ต่างประเทศ) ผ่าน yfinance
+2) กรองเฉพาะข่าวเชิงบวก: หุ้นพุ่ง, ดีลยักษ์ใหญ่, โปรเจกต์ที่จะทำให้อนาคตเติบโต
+3) สรุปใจความแบบสั้น กระชับ พร้อมระบุชื่อหุ้นที่คาดว่าจะพุ่งชัดเจน
 """
 
 import json
@@ -24,6 +22,13 @@ LINE_BROADCAST_URL = "https://api.line.me/v2/bot/message/broadcast"
 
 MAX_MESSAGE_CHARS = 4500       # กันเกิน limit ข้อความของ LINE ต่อ 1 ข้อความ
 NEWS_LOOKBACK_HOURS = 15       # ดึงเฉพาะข่าวที่เผยแพร่ในช่วงกี่ชั่วโมงที่ผ่านมา
+
+# คำสำคัญ (Keywords) ข่าวเชิงบวก/ดีลใหญ่/หุ้นพุ่ง
+BULLISH_KEYWORDS = [
+    "surge", "soar", "jump", "rally", "spike", "skyrocket", "leap", "gain", "bullish",
+    "deal", "acquisition", "merger", "partnership", "buyout", "mega", "billion",
+    "growth", "unveil", "launch", "expand", "breakthrough", "beat", "positive"
+]
 
 
 def load_json(path, default):
@@ -59,8 +64,13 @@ def send_line_broadcast(message: str):
         print("ส่งข่าวเข้า LINE สำเร็จ")
 
 
+def is_bullish_news(title: str) -> bool:
+    """ตรวจสอบว่าหัวข้อข่าวมีคำสำคัญเชิงบวกหรือดีลใหญ่หรือไม่"""
+    title_lower = title.lower()
+    return any(keyword in title_lower for keyword in BULLISH_KEYWORDS)
+
+
 def extract_news_item(raw: dict):
-    """yfinance คืนรูปแบบข่าวได้หลายเวอร์ชัน พยายามรองรับทั้งแบบเก่าและใหม่"""
     content = raw.get("content", raw)
     title = content.get("title") or raw.get("title")
 
@@ -103,6 +113,11 @@ def get_recent_news(ticker: str, lookback_hours: int, max_items: int):
             continue
         if item["pub_ts"] is not None and item["pub_ts"] < cutoff:
             continue
+        
+        # คัดกรองเอาเฉพาะข่าวแนวโน้มพุ่ง/ดีลใหญ่
+        if not is_bullish_news(item["title"]):
+            continue
+            
         parsed.append(item)
 
     parsed.sort(key=lambda x: x["pub_ts"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
@@ -112,7 +127,7 @@ def get_recent_news(ticker: str, lookback_hours: int, max_items: int):
 def main():
     config = load_json(CONFIG_FILE, {"tickers": []})
     tickers = config.get("tickers", [])
-    max_items_per_ticker = int(config.get("news_max_items_per_ticker", 1))
+    max_items_per_ticker = int(config.get("news_max_items_per_ticker", 2)) # เพิ่มโอกาสให้เจอข่าวหลังกรอง
 
     if not tickers:
         print("ไม่มีรายชื่อหุ้นใน stocks.json")
@@ -128,15 +143,21 @@ def main():
         for item in items:
             if item["link"] in sent_urls:
                 continue
-            news_lines.append(f"📰 {ticker} | {item['publisher']}\n{item['title']}\n{item['link']}")
+            
+            # ปรับรูปแบบข่าวย่อ เน้นความกระชับและระบุหุ้นที่จะพุ่งชัดเจน
+            news_format = (
+                f"🔥 หุ้นน่าจับตา: {ticker}\n"
+                f"📢 สรุปข่าว: {item['title']}\n"
+                f"🌐 ลิงก์ข่าวต่างประเทศ: {item['link']}"
+            )
+            news_lines.append(news_format)
             sent_urls.add(item["link"])
 
     if not news_lines:
-        print("ไม่มีข่าวใหม่ที่เข้าเงื่อนไขในรอบนี้")
+        print("ไม่มีข่าวหุ้นพุ่งหรือดีลใหญ่ในรอบนี้")
     else:
-        # แบ่งข้อความเป็นชุดๆ กันเกิน limit ต่อ 1 ข้อความของ LINE
         chunks = []
-        current_chunk = "📰 สรุปข่าวหุ้นประจำวัน\n\n"
+        current_chunk = "🚀 เจาะข่าวเด่น หุ้นส่อแววพุ่ง! 📈\n\n"
         for line in news_lines:
             candidate = current_chunk + line + "\n\n"
             if len(candidate) > MAX_MESSAGE_CHARS:
