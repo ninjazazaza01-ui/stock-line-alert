@@ -1,0 +1,11 @@
+{
+  "threshold_pct": 3.0,
+  "tickers": [
+    "PTT.BK",
+    "AOT.BK",
+    "CPALL.BK",
+    "AAPL",
+    "TSLA",
+    "NVDA"
+  ]
+}
