@@ -1,5 +1,5 @@
 {
-  "threshold_pct": 3.0,
+  "threshold_pct": 0.01,
   "tickers": [
     "PTT.BK",
     "AOT.BK",
