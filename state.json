@@ -1,6 +1,7 @@
 {
   "2026-07-01:drop": [
     "AAPL",
+    "SNDK",
     "AMD",
     "AMZN",
     "ASML",
@@ -32,6 +33,7 @@
     "WDC"
   ],
   "2026-07-01:momentum": [
+    "SNDK",
     "AAPL",
     "AMD",
     "AMZN",
