@@ -6,7 +6,8 @@ Stock Drop Alert + Momentum Signal -> LINE Messaging API
    ถ้าร่วงเกิน threshold ที่กำหนด จะส่งข้อความแจ้งเตือน
 2) เช็คสัญญาณ "โมเมนตัม" (ราคาขึ้นแรง + ปริมาณซื้อขายพุ่งผิดปกติ
    เทียบค่าเฉลี่ย 20 วัน) เพื่อโชว์เป็นข้อมูลประกอบการตัดสินใจ
-   ** ไม่ใช่คำแนะนำให้ซื้อ/ขาย เป็นเพียงสัญญาณทางสถิติเท่านั้น **
+3) **อัปเดตใหม่**: ส่งสรุปราคาหุ้นทุกตัวทุกรอบที่ทำงาน (ทุก 15 นาที) 
+   ไม่ว่าจะเข้าเงื่อนไขแจ้งเตือนหรือไม่ก็ตาม
 
 ตั้งค่าหุ้นและเงื่อนไขได้ที่ไฟล์ stocks.json
 """
@@ -142,14 +143,20 @@ def main():
 
     drop_messages = []
     momentum_messages = []
+    summary_messages = []  # เก็บข้อมูลราคารอบปกติของหุ้นทุกตัว
 
     for ticker in tickers:
-        # --- เช็คหุ้นร่วง ---
+        # --- เช็คราคาและอัปเดตข้อมูลสรุปประจำรอบ ---
         result = check_stock(ticker, drop_threshold_pct)
         if result is not None:
             change_pct, current, prev_close = result
             print(f"{ticker}: {change_pct:+.2f}% (ปัจจุบัน {current}, ปิดก่อนหน้า {prev_close})")
 
+            # จัดอีโมจิหน้าชื่อหุ้นตามทิศทางราคาเพื่อความสวยงามและอ่านง่าย
+            emoji = "🟢" if change_pct > 0 else "🔴" if change_pct < 0 else "⚪"
+            summary_messages.append(f"{emoji} {ticker}: {current} ({change_pct:+.2f}%)")
+
+            # เงื่อนไขแจ้งเตือนหุ้นร่วงรุนแรง (แจ้งเตือนครั้งเดียวต่อวันต่อบริษัท)
             if change_pct <= -drop_threshold_pct and ticker not in alerted_today:
                 drop_messages.append(
                     f"📉 {ticker} ร่วง {change_pct:.2f}%\n"
@@ -157,6 +164,8 @@ def main():
                     f"ราคาปิดก่อนหน้า: {prev_close}"
                 )
                 alerted_today.add(ticker)
+        else:
+            summary_messages.append(f"⚠️ {ticker}: ดึงข้อมูลไม่สำเร็จ")
 
         # --- เช็คสัญญาณโมเมนตัม (ราคา+วอลุ่มพุ่ง) ---
         momentum = check_momentum(ticker, momentum_price_pct, momentum_volume_multiplier)
@@ -170,20 +179,28 @@ def main():
             )
             momentum_alerted_today.add(ticker)
 
+    # --- 1. ส่งสรุปราคาหุ้นทุกตัวรอบปัจจุบัน (ส่งทุก 15 นาทีแน่นอน) ---
+    if summary_messages:
+        current_time_str = datetime.now().strftime("%H:%M")
+        full_summary_message = f"📊 อัปเดตราคาหุ้นประจำรอบ ({current_time_str} น.)\n\n" + "\n".join(summary_messages)
+        send_line_broadcast(full_summary_message)
+
+    # --- 2. ส่งแจ้งเตือนด่วนกรณีหุ้นร่วงรุนแรง (ส่งเฉพาะเมื่อเข้าเงื่อนไขใหม่) ---
     if drop_messages:
-        full_message = "แจ้งเตือนหุ้นร่วง 🔔\n\n" + "\n\n".join(drop_messages)
-        send_line_broadcast(full_message)
+        full_drop_message = "แจ้งเตือนหุ้นร่วงรุนแรง 🔔\n\n" + "\n\n".join(drop_messages)
+        send_line_broadcast(full_drop_message)
     else:
         print("ไม่มีหุ้นที่ร่วงเกิน threshold ในรอบนี้")
 
+    # --- 3. ส่งแจ้งเตือนกรณีโมเมนตัมพุ่ง (ส่งเฉพาะเมื่อเข้าเงื่อนไขใหม่) ---
     if momentum_messages:
-        full_message = (
+        full_momentum_message = (
             "สัญญาณโมเมนตัมน่าจับตา 🚀\n"
             "(ราคา+ปริมาณซื้อขายพุ่งผิดปกติ เป็นข้อมูลสถิติ "
             "ไม่ใช่คำแนะนำให้ซื้อ โปรดวิเคราะห์เพิ่มเติมก่อนตัดสินใจ)\n\n"
             + "\n\n".join(momentum_messages)
         )
-        send_line_broadcast(full_message)
+        send_line_broadcast(full_momentum_message)
     else:
         print("ไม่มีหุ้นที่เข้าเงื่อนไขโมเมนตัมในรอบนี้")
 
