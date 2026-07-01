@@ -99,7 +99,7 @@ def main():
         change_pct, current, prev_close = result
         print(f"{ticker}: {change_pct:+.2f}% (ปัจจุบัน {current}, ปิดก่อนหน้า {prev_close})")
 
-        if change_pct <= -threshold_pct and ticker not in alerted_today:
+        if abs(change_pct) >= threshold_pct and ticker not in alerted_today:
             triggered_messages.append(
                 f"📉 {ticker} ร่วง {change_pct:.2f}%\n"
                 f"ราคาปัจจุบัน: {current}\n"
