@@ -3,9 +3,9 @@ name: Stock Drop Alert
 on:
   schedule:
     # ช่วงก่อนตลาดเปิด (Pre-market ~4:00-9:30 ET) เช็คทุก 30 นาที
-    - cron: "*/30 8-13 * * 1-5"
+    - cron: "*/15 8-13 * * 1-5"
     # ช่วงตลาดเปิด (Regular hours ~9:30-16:00 ET) เช็คทุก 20 นาที
-    - cron: "*/20 13-21 * * 1-5"
+    - cron: "*/15 13-21 * * 1-5"
   workflow_dispatch: {}   # ให้กดรันเองได้จากแท็บ Actions เพื่อทดสอบ
 
 permissions:
