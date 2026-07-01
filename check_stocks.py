@@ -93,7 +93,7 @@ def main():
     triggered_messages = []
 
     for ticker in tickers:
-        result = check_stock(ticker)
+        result = check_stock(ticker, threshold_pct)
         if result is None:
             continue
         change_pct, current, prev_close = result
