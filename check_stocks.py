@@ -122,13 +122,13 @@ def main():
         {
             "threshold_pct": 3.0,
             "momentum_price_pct": 2.0,
-            "momentum_volume_multiplier": 1.5,
+            "momentum_volume_multiplier": 0.5,
             "tickers": [],
         },
     )
     drop_threshold_pct = float(config.get("threshold_pct", 3.0))
     momentum_price_pct = float(config.get("momentum_price_pct", 2.0))
-    momentum_volume_multiplier = float(config.get("momentum_volume_multiplier", 1.5))
+    momentum_volume_multiplier = float(config.get("momentum_volume_multiplier", 0.5))
     tickers = config.get("tickers", [])
 
     if not tickers:
