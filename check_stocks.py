@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """
-Stock Drop Alert -> LINE Messaging API
-----------------------------------------
-เช็คราคาหุ้น (ไทย + สหรัฐฯ) เทียบกับราคาปิดของวันก่อนหน้า
-ถ้าร่วงเกิน threshold ที่กำหนด จะส่งข้อความแจ้งเตือนเข้า LINE
-ผ่าน LINE Official Account (Messaging API - Broadcast)
+Stock Drop Alert + Momentum Signal -> LINE Messaging API
+----------------------------------------------------------
+1) เช็คราคาหุ้น (ไทย + สหรัฐฯ) เทียบกับราคาปิดของวันก่อนหน้า
+   ถ้าร่วงเกิน threshold ที่กำหนด จะส่งข้อความแจ้งเตือน
+2) เช็คสัญญาณ "โมเมนตัม" (ราคาขึ้นแรง + ปริมาณซื้อขายพุ่งผิดปกติ
+   เทียบค่าเฉลี่ย 20 วัน) เพื่อโชว์เป็นข้อมูลประกอบการตัดสินใจ
+   ** ไม่ใช่คำแนะนำให้ซื้อ/ขาย เป็นเพียงสัญญาณทางสถิติเท่านั้น **
 
-ตั้งค่าหุ้นและ threshold ได้ที่ไฟล์ stocks.json
+ตั้งค่าหุ้นและเงื่อนไขได้ที่ไฟล์ stocks.json
 """
 
 import json
 import os
-import sys
 from datetime import datetime, timezone
 
 import requests
@@ -51,9 +52,7 @@ def send_line_broadcast(message: str):
         "Content-Type": "application/json",
         "Authorization": f"Bearer {LINE_CHANNEL_ACCESS_TOKEN}",
     }
-    payload = {
-        "messages": [{"type": "text", "text": message}]
-    }
+    payload = {"messages": [{"type": "text", "text": message}]}
     resp = requests.post(LINE_BROADCAST_URL, headers=headers, json=payload, timeout=15)
     if resp.status_code != 200:
         print(f"!! ส่ง LINE ไม่สำเร็จ ({resp.status_code}): {resp.text}")
@@ -62,7 +61,7 @@ def send_line_broadcast(message: str):
 
 
 def check_stock(ticker: str, threshold_pct: float):
-    """คืนค่า (drop_pct, current_price, prev_close) หรือ None ถ้าดึงข้อมูลไม่ได้"""
+    """คืนค่า (change_pct, current_price, prev_close) หรือ None ถ้าดึงข้อมูลไม่ได้"""
     try:
         t = yf.Ticker(ticker)
         fast = t.fast_info
@@ -77,9 +76,59 @@ def check_stock(ticker: str, threshold_pct: float):
         return None
 
 
+def check_momentum(ticker: str, price_threshold_pct: float, volume_multiplier: float):
+    """
+    เช็คสัญญาณโมเมนตัม: ราคาขึ้น >= price_threshold_pct
+    และปริมาณซื้อขายวันนี้ >= ค่าเฉลี่ย 20 วัน * volume_multiplier
+    คืนค่า dict ข้อมูล หรือ None ถ้าไม่เข้าเงื่อนไข/ดึงข้อมูลไม่ได้
+    """
+    try:
+        t = yf.Ticker(ticker)
+        hist = t.history(period="1mo")
+        if hist.empty or len(hist) < 5:
+            return None
+
+        today_row = hist.iloc[-1]
+        prev_close = hist.iloc[-2]["Close"] if len(hist) >= 2 else today_row["Open"]
+        current_price = today_row["Close"]
+        today_volume = today_row["Volume"]
+
+        # ค่าเฉลี่ยปริมาณ 20 วัน (ไม่รวมวันนี้)
+        avg_volume = hist.iloc[:-1]["Volume"].tail(20).mean()
+        if avg_volume == 0 or prev_close == 0:
+            return None
+
+        price_change_pct = (current_price - prev_close) / prev_close * 100
+        volume_ratio = today_volume / avg_volume
+
+        if price_change_pct >= price_threshold_pct and volume_ratio >= volume_multiplier:
+            return {
+                "ticker": ticker,
+                "price_change_pct": price_change_pct,
+                "current_price": current_price,
+                "volume_ratio": volume_ratio,
+                "today_volume": int(today_volume),
+                "avg_volume": int(avg_volume),
+            }
+        return None
+    except Exception as e:
+        print(f"เช็คโมเมนตัม {ticker} ไม่สำเร็จ: {e}")
+        return None
+
+
 def main():
-    config = load_json(CONFIG_FILE, {"threshold_pct": 3.0, "tickers": []})
-    threshold_pct = float(config.get("threshold_pct", 3.0))
+    config = load_json(
+        CONFIG_FILE,
+        {
+            "threshold_pct": 3.0,
+            "momentum_price_pct": 2.0,
+            "momentum_volume_multiplier": 1.5,
+            "tickers": [],
+        },
+    )
+    drop_threshold_pct = float(config.get("threshold_pct", 3.0))
+    momentum_price_pct = float(config.get("momentum_price_pct", 2.0))
+    momentum_volume_multiplier = float(config.get("momentum_volume_multiplier", 1.5))
     tickers = config.get("tickers", [])
 
     if not tickers:
@@ -88,33 +137,61 @@ def main():
 
     state = load_json(STATE_FILE, {})
     key = today_key()
-    alerted_today = set(state.get(key, []))
+    alerted_today = set(state.get(f"{key}:drop", state.get(key, [])))
+    momentum_alerted_today = set(state.get(f"{key}:momentum", []))
 
-    triggered_messages = []
+    drop_messages = []
+    momentum_messages = []
 
     for ticker in tickers:
-        result = check_stock(ticker, threshold_pct)
-        if result is None:
-            continue
-        change_pct, current, prev_close = result
-        print(f"{ticker}: {change_pct:+.2f}% (ปัจจุบัน {current}, ปิดก่อนหน้า {prev_close})")
+        # --- เช็คหุ้นร่วง ---
+        result = check_stock(ticker, drop_threshold_pct)
+        if result is not None:
+            change_pct, current, prev_close = result
+            print(f"{ticker}: {change_pct:+.2f}% (ปัจจุบัน {current}, ปิดก่อนหน้า {prev_close})")
 
-        if abs(change_pct) >= threshold_pct and ticker not in alerted_today:
-            triggered_messages.append(
-                f"📉 {ticker} ร่วง {change_pct:.2f}%\n"
-                f"ราคาปัจจุบัน: {current}\n"
-                f"ราคาปิดก่อนหน้า: {prev_close}"
+            if change_pct <= -drop_threshold_pct and ticker not in alerted_today:
+                drop_messages.append(
+                    f"📉 {ticker} ร่วง {change_pct:.2f}%\n"
+                    f"ราคาปัจจุบัน: {current}\n"
+                    f"ราคาปิดก่อนหน้า: {prev_close}"
+                )
+                alerted_today.add(ticker)
+
+        # --- เช็คสัญญาณโมเมนตัม (ราคา+วอลุ่มพุ่ง) ---
+        momentum = check_momentum(ticker, momentum_price_pct, momentum_volume_multiplier)
+        if momentum is not None and ticker not in momentum_alerted_today:
+            momentum_messages.append(
+                f"🚀 {momentum['ticker']} ราคา +{momentum['price_change_pct']:.2f}%\n"
+                f"ราคาปัจจุบัน: {momentum['current_price']:.2f}\n"
+                f"ปริมาณซื้อขายวันนี้: {momentum['today_volume']:,} "
+                f"(เฉลี่ย 20 วัน: {momentum['avg_volume']:,}, "
+                f"คิดเป็น {momentum['volume_ratio']:.1f} เท่า)"
             )
-            alerted_today.add(ticker)
+            momentum_alerted_today.add(ticker)
 
-    if triggered_messages:
-        full_message = "แจ้งเตือนหุ้นร่วง 🔔\n\n" + "\n\n".join(triggered_messages)
+    if drop_messages:
+        full_message = "แจ้งเตือนหุ้นร่วง 🔔\n\n" + "\n\n".join(drop_messages)
         send_line_broadcast(full_message)
     else:
         print("ไม่มีหุ้นที่ร่วงเกิน threshold ในรอบนี้")
 
+    if momentum_messages:
+        full_message = (
+            "สัญญาณโมเมนตัมน่าจับตา 🚀\n"
+            "(ราคา+ปริมาณซื้อขายพุ่งผิดปกติ เป็นข้อมูลสถิติ "
+            "ไม่ใช่คำแนะนำให้ซื้อ โปรดวิเคราะห์เพิ่มเติมก่อนตัดสินใจ)\n\n"
+            + "\n\n".join(momentum_messages)
+        )
+        send_line_broadcast(full_message)
+    else:
+        print("ไม่มีหุ้นที่เข้าเงื่อนไขโมเมนตัมในรอบนี้")
+
     # เก็บ state ไว้กันแจ้งเตือนซ้ำในวันเดียวกัน (ล้าง key เก่าทิ้งด้วย)
-    state = {key: sorted(alerted_today)}
+    state = {
+        f"{key}:drop": sorted(alerted_today),
+        f"{key}:momentum": sorted(momentum_alerted_today),
+    }
     save_json(STATE_FILE, state)
 
 
