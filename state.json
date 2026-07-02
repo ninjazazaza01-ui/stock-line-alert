@@ -1,10 +1,20 @@
 {
-  "2026-07-02:drop": [],
+  "2026-07-02:drop": [
+    "AMD",
+    "CRWV",
+    "INTC",
+    "META",
+    "MU",
+    "SNDK",
+    "STX",
+    "TSLA",
+    "WDC"
+  ],
   "2026-07-02:momentum": [
     "META",
     "MSFT",
     "PLTR",
     "UNH"
   ],
-  "last_summary_hour": "2026-07-02 08"
+  "last_summary_hour": "2026-07-02 15"
 }
