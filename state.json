@@ -1,20 +1,27 @@
 {
   "2026-07-02:drop": [
     "AMD",
+    "ASML",
+    "ASTS",
     "CRWV",
     "INTC",
+    "LUNR",
     "META",
     "MU",
+    "SMCI",
     "SNDK",
     "STX",
     "TSLA",
+    "TSM",
+    "VSAT",
     "WDC"
   ],
   "2026-07-02:momentum": [
+    "AAPL",
     "META",
     "MSFT",
     "PLTR",
     "UNH"
   ],
-  "last_summary_hour": "2026-07-02 15"
+  "last_summary_hour": "2026-07-02 18"
 }
