@@ -1,22 +1,17 @@
 {
-  "2026-07-03:drop": [
+  "2026-07-06:drop": [
+    "ASTS",
+    "ECHO",
+    "LUNR",
+    "RKLB",
+    "SPCX"
+  ],
+  "2026-07-06:momentum": [
     "AMD",
     "ASML",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "META",
-    "MU",
-    "SNDK",
-    "STX",
-    "TSLA",
-    "TSM",
-    "WDC"
+    "NTAP",
+    "ORCL",
+    "TSLA"
   ],
-  "2026-07-03:momentum": [
-    "AAPL",
-    "JNJ",
-    "PLTR"
-  ],
-  "last_summary_hour": "2026-07-03 21"
+  "last_summary_hour": "2026-07-06 17"
 }
