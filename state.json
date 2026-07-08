@@ -4,8 +4,13 @@
     "LUNR",
     "PLTR",
     "RKLB",
+    "SPCX",
     "VSAT"
   ],
-  "2026-07-08:momentum": [],
-  "last_summary_hour": "2026-07-08 15"
+  "2026-07-08:momentum": [
+    "AVGO",
+    "NVDA",
+    "SNDK"
+  ],
+  "last_summary_hour": "2026-07-08 18"
 }
