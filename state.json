@@ -1,11 +1,15 @@
 {
   "2026-07-10:drop": [
-    "LUNR"
+    "LUNR",
+    "SPCX"
   ],
   "2026-07-10:momentum": [
+    "AMD",
     "META",
     "NVDA",
-    "SNDK"
+    "SNDK",
+    "STX",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-07-10 18"
+  "last_summary_hour": "2026-07-10 21"
 }
