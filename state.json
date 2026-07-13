@@ -7,10 +7,13 @@
     "CRWV",
     "ECHO",
     "INTC",
+    "LUNR",
     "MU",
     "NTAP",
+    "NVDA",
     "ORCL",
     "RKLB",
+    "SMCI",
     "SNDK",
     "SPCX",
     "STX",
@@ -18,6 +21,8 @@
     "VSAT",
     "WDC"
   ],
-  "2026-07-13:momentum": [],
-  "last_summary_hour": "2026-07-13 16"
+  "2026-07-13:momentum": [
+    "PLTR"
+  ],
+  "last_summary_hour": "2026-07-13 18"
 }
