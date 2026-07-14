@@ -1,7 +1,10 @@
 {
-  "2026-07-14:drop": [],
+  "2026-07-14:drop": [
+    "CRWV"
+  ],
   "2026-07-14:momentum": [
+    "ASML",
     "PLTR"
   ],
-  "last_summary_hour": "2026-07-14 14"
+  "last_summary_hour": "2026-07-14 16"
 }
