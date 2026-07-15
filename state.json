@@ -1,7 +1,11 @@
 {
   "2026-07-15:drop": [
+    "AMD",
     "ASTS",
+    "CRWV",
+    "INTC",
     "MU",
+    "NTAP",
     "SNDK",
     "STX",
     "WDC"
@@ -12,5 +16,5 @@
     "RKLB",
     "SNDK"
   ],
-  "last_summary_hour": "2026-07-15 13"
+  "last_summary_hour": "2026-07-15 14"
 }
