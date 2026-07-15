@@ -1,9 +1,16 @@
 {
-  "2026-07-15:drop": [],
+  "2026-07-15:drop": [
+    "ASTS",
+    "MU",
+    "SNDK",
+    "STX",
+    "WDC"
+  ],
   "2026-07-15:momentum": [
+    "ASML",
     "PLTR",
     "RKLB",
     "SNDK"
   ],
-  "last_summary_hour": "2026-07-15 11"
+  "last_summary_hour": "2026-07-15 13"
 }
