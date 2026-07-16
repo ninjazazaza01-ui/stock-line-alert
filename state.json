@@ -1,19 +1,6 @@
 {
-  "2026-07-15:drop": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "INTC",
-    "MU",
-    "NTAP",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "WDC"
-  ],
-  "2026-07-15:momentum": [
+  "2026-07-16:drop": [],
+  "2026-07-16:momentum": [
     "AAPL",
     "AMZN",
     "ASML",
@@ -21,10 +8,7 @@
     "META",
     "MSFT",
     "ORCL",
-    "PFE",
-    "PLTR",
-    "RKLB",
-    "SNDK"
+    "PFE"
   ],
-  "last_summary_hour": "2026-07-15 22"
+  "last_summary_hour": "2026-07-16 10"
 }
