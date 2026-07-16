@@ -1,5 +1,15 @@
 {
-  "2026-07-16:drop": [],
+  "2026-07-16:drop": [
+    "CRWV",
+    "ECHO",
+    "LUNR",
+    "ORCL",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "WDC"
+  ],
   "2026-07-16:momentum": [
     "AAPL",
     "AMZN",
@@ -8,7 +18,8 @@
     "META",
     "MSFT",
     "ORCL",
-    "PFE"
+    "PFE",
+    "UNH"
   ],
-  "last_summary_hour": "2026-07-16 11"
+  "last_summary_hour": "2026-07-16 14"
 }
