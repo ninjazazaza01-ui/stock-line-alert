@@ -12,6 +12,7 @@
     "RKLB",
     "SMCI",
     "SNDK",
+    "SPCX",
     "STX",
     "TSM",
     "WDC"
@@ -27,5 +28,5 @@
     "PFE",
     "UNH"
   ],
-  "last_summary_hour": "2026-07-16 16"
+  "last_summary_hour": "2026-07-16 17"
 }
