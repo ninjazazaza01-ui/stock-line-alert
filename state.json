@@ -4,7 +4,11 @@
     "META"
   ],
   "2026-07-17:momentum": [
-    "ASTS"
+    "ASTS",
+    "MU",
+    "SNDK",
+    "STX",
+    "WDC"
   ],
-  "last_summary_hour": "2026-07-17 14"
+  "last_summary_hour": "2026-07-17 16"
 }
