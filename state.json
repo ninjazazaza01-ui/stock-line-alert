@@ -1,5 +1,10 @@
 {
-  "2026-07-17:drop": [],
-  "2026-07-17:momentum": [],
-  "last_summary_hour": "2026-07-17 12"
+  "2026-07-17:drop": [
+    "GOOGL",
+    "META"
+  ],
+  "2026-07-17:momentum": [
+    "ASTS"
+  ],
+  "last_summary_hour": "2026-07-17 14"
 }
