@@ -1,19 +1,11 @@
 {
-  "2026-07-17:drop": [
-    "GOOGL",
-    "META"
-  ],
-  "2026-07-17:momentum": [
+  "2026-07-20:drop": [],
+  "2026-07-20:momentum": [
     "ASTS",
-    "MU",
     "NTAP",
-    "ORCL",
-    "RKLB",
-    "SNDK",
     "STX",
-    "UNH",
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-17 21"
+  "last_summary_hour": "2026-07-20 10"
 }
