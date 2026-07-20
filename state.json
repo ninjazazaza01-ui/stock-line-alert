@@ -1,5 +1,7 @@
 {
-  "2026-07-20:drop": [],
+  "2026-07-20:drop": [
+    "ORCL"
+  ],
   "2026-07-20:momentum": [
     "ASTS",
     "NTAP",
@@ -7,5 +9,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-20 13"
+  "last_summary_hour": "2026-07-20 15"
 }
