@@ -1,22 +1,11 @@
 {
-  "2026-07-20:drop": [
-    "ORCL",
-    "RKLB",
-    "SPCX",
-    "VSAT"
-  ],
-  "2026-07-20:momentum": [
-    "AMD",
-    "ASTS",
+  "2026-07-21:drop": [],
+  "2026-07-21:momentum": [
     "INTC",
     "LUNR",
     "MSFT",
-    "MU",
-    "NTAP",
     "SNDK",
-    "STX",
-    "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-20 22"
+  "last_summary_hour": "2026-07-21 10"
 }
