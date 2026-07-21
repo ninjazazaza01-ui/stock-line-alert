@@ -1,11 +1,17 @@
 {
   "2026-07-21:drop": [],
   "2026-07-21:momentum": [
+    "AMD",
+    "ASTS",
     "INTC",
     "LUNR",
     "MSFT",
+    "MU",
     "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-21 15"
+  "last_summary_hour": "2026-07-21 16"
 }
