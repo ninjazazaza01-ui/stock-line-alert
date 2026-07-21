@@ -2,12 +2,15 @@
   "2026-07-21:drop": [],
   "2026-07-21:momentum": [
     "AMD",
+    "ASML",
     "ASTS",
     "CRWV",
+    "ECHO",
     "INTC",
     "LUNR",
     "MSFT",
     "MU",
+    "ORCL",
     "RKLB",
     "SNDK",
     "SPCX",
@@ -16,5 +19,5 @@
     "TSM",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-21 18"
+  "last_summary_hour": "2026-07-21 19"
 }
