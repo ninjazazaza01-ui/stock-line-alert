@@ -3,7 +3,8 @@
     "LUNR",
     "PLTR",
     "RKLB",
-    "SMCI"
+    "SMCI",
+    "SPCX"
   ],
   "2026-07-22:momentum": [
     "AMD",
@@ -17,6 +18,7 @@
     "LUNR",
     "MU",
     "NTAP",
+    "NVDA",
     "ORCL",
     "RKLB",
     "SMCI",
@@ -29,5 +31,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-22 15"
+  "last_summary_hour": "2026-07-22 16"
 }
