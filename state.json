@@ -1,5 +1,7 @@
 {
   "2026-07-22:drop": [
+    "LUNR",
+    "PLTR",
     "RKLB",
     "SMCI"
   ],
@@ -27,5 +29,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-22 12"
+  "last_summary_hour": "2026-07-22 14"
 }
