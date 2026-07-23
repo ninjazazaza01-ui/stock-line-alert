@@ -1,5 +1,12 @@
 {
-  "2026-07-23:drop": [],
+  "2026-07-23:drop": [
+    "AMZN",
+    "ASTS",
+    "GOOGL",
+    "RKLB",
+    "SPCX",
+    "TSLA"
+  ],
   "2026-07-23:momentum": [
     "AVGO",
     "CRWV",
@@ -7,5 +14,5 @@
     "NVDA",
     "SMCI"
   ],
-  "last_summary_hour": "2026-07-23 12"
+  "last_summary_hour": "2026-07-23 14"
 }
