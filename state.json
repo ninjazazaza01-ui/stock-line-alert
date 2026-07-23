@@ -1,9 +1,11 @@
 {
   "2026-07-23:drop": [
+    "AMD",
     "AMZN",
     "ASTS",
     "CRWV",
     "GOOGL",
+    "INTC",
     "LUNR",
     "META",
     "ORCL",
@@ -16,9 +18,10 @@
     "AVGO",
     "CRWV",
     "JNJ",
+    "MU",
     "NVDA",
     "SMCI",
     "SNDK"
   ],
-  "last_summary_hour": "2026-07-23 16"
+  "last_summary_hour": "2026-07-23 18"
 }
