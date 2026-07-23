@@ -2,7 +2,12 @@
   "2026-07-23:drop": [
     "AMZN",
     "ASTS",
+    "CRWV",
     "GOOGL",
+    "LUNR",
+    "META",
+    "ORCL",
+    "PLTR",
     "RKLB",
     "SPCX",
     "TSLA"
@@ -14,5 +19,5 @@
     "NVDA",
     "SMCI"
   ],
-  "last_summary_hour": "2026-07-23 14"
+  "last_summary_hour": "2026-07-23 15"
 }
