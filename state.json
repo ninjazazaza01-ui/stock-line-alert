@@ -15,13 +15,15 @@
     "SPCX",
     "STX",
     "TSLA",
+    "TSM",
     "VSAT",
     "WDC"
   ],
   "2026-07-24:momentum": [
+    "AAPL",
     "MU",
     "SMCI",
     "SPCX"
   ],
-  "last_summary_hour": "2026-07-24 18"
+  "last_summary_hour": "2026-07-24 19"
 }
