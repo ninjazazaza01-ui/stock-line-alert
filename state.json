@@ -1,11 +1,24 @@
 {
   "2026-07-24:drop": [
-    "INTC"
+    "AMD",
+    "ASML",
+    "ASTS",
+    "CRWV",
+    "INTC",
+    "LUNR",
+    "MU",
+    "ORCL",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "VSAT",
+    "WDC"
   ],
   "2026-07-24:momentum": [
     "MU",
     "SMCI",
     "SPCX"
   ],
-  "last_summary_hour": "2026-07-24 12"
+  "last_summary_hour": "2026-07-24 14"
 }
