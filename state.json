@@ -1,28 +1,11 @@
 {
-  "2026-07-23:drop": [
-    "AMD",
-    "AMZN",
-    "ASTS",
-    "CRWV",
-    "GOOGL",
-    "INTC",
-    "LUNR",
-    "META",
-    "ORCL",
-    "PLTR",
-    "RKLB",
-    "SPCX",
-    "TSLA"
+  "2026-07-24:drop": [
+    "INTC"
   ],
-  "2026-07-23:momentum": [
-    "AVGO",
-    "CRWV",
-    "JNJ",
+  "2026-07-24:momentum": [
     "MU",
-    "NVDA",
     "SMCI",
-    "SNDK",
     "SPCX"
   ],
-  "last_summary_hour": "2026-07-23 22"
+  "last_summary_hour": "2026-07-24 10"
 }
