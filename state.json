@@ -13,7 +13,10 @@
   "2026-07-27:momentum": [
     "AAPL",
     "GOOGL",
-    "PLTR"
+    "MSFT",
+    "ORCL",
+    "PLTR",
+    "RKLB"
   ],
-  "last_summary_hour": "2026-07-27 17"
+  "last_summary_hour": "2026-07-27 18"
 }
