@@ -1,29 +1,5 @@
 {
-  "2026-07-24:drop": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "MU",
-    "ORCL",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "TSLA",
-    "TSM",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-07-24:momentum": [
-    "AAPL",
-    "MU",
-    "SMCI",
-    "SPCX"
-  ],
-  "last_summary_hour": "2026-07-24 22"
+  "2026-07-27:drop": [],
+  "2026-07-27:momentum": [],
+  "last_summary_hour": "2026-07-27 11"
 }
