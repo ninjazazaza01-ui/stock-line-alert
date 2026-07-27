@@ -1,8 +1,15 @@
 {
   "2026-07-27:drop": [
+    "AMD",
     "ASML",
-    "SNDK"
+    "MU",
+    "NVDA",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "TSM",
+    "WDC"
   ],
   "2026-07-27:momentum": [],
-  "last_summary_hour": "2026-07-27 13"
+  "last_summary_hour": "2026-07-27 15"
 }
