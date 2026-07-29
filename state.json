@@ -16,7 +16,8 @@
     "SPCX",
     "STX",
     "TSM",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
   "2026-07-29:momentum": [
     "GOOGL",
@@ -27,5 +28,5 @@
     "UNH",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-29 19"
+  "last_summary_hour": "2026-07-29 20"
 }
