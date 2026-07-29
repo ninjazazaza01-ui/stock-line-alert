@@ -1,6 +1,18 @@
 {
   "2026-07-29:drop": [
-    "STX"
+    "AMD",
+    "AVGO",
+    "CRWV",
+    "INTC",
+    "LUNR",
+    "MU",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
+    "VSAT"
   ],
   "2026-07-29:momentum": [
     "GOOGL",
@@ -9,5 +21,5 @@
     "SPCX",
     "UNH"
   ],
-  "last_summary_hour": "2026-07-29 12"
+  "last_summary_hour": "2026-07-29 15"
 }
