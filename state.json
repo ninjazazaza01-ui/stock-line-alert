@@ -1,11 +1,15 @@
 {
   "2026-07-29:drop": [
     "AMD",
+    "ASML",
+    "ASTS",
     "AVGO",
     "CRWV",
+    "ECHO",
     "INTC",
     "LUNR",
     "MU",
+    "NVDA",
     "RKLB",
     "SMCI",
     "SNDK",
@@ -19,7 +23,8 @@
     "NTAP",
     "PFE",
     "SPCX",
+    "STX",
     "UNH"
   ],
-  "last_summary_hour": "2026-07-29 15"
+  "last_summary_hour": "2026-07-29 16"
 }
