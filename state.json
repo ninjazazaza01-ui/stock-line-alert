@@ -1,9 +1,15 @@
 {
   "2026-07-30:drop": [
+    "LLY",
     "MSFT"
   ],
   "2026-07-30:momentum": [
+    "AMZN",
+    "CRWV",
+    "MSFT",
+    "MU",
+    "SNDK",
     "STX"
   ],
-  "last_summary_hour": "2026-07-30 12"
+  "last_summary_hour": "2026-07-30 14"
 }
