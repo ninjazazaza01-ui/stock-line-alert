@@ -1,32 +1,9 @@
 {
-  "2026-07-29:drop": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "MU",
-    "NVDA",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "TSM",
-    "VSAT",
-    "WDC"
+  "2026-07-30:drop": [
+    "MSFT"
   ],
-  "2026-07-29:momentum": [
-    "GOOGL",
-    "NTAP",
-    "PFE",
-    "SPCX",
-    "STX",
-    "UNH",
-    "WDC"
+  "2026-07-30:momentum": [
+    "STX"
   ],
-  "last_summary_hour": "2026-07-29 22"
+  "last_summary_hour": "2026-07-30 10"
 }
