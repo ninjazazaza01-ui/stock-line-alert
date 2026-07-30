@@ -6,13 +6,19 @@
   "2026-07-30:momentum": [
     "AMD",
     "AMZN",
+    "ASML",
     "CRWV",
     "INTC",
     "MSFT",
     "MU",
+    "ORCL",
+    "RKLB",
+    "SMCI",
     "SNDK",
     "STX",
+    "TSLA",
+    "TSM",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-30 15"
+  "last_summary_hour": "2026-07-30 16"
 }
