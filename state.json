@@ -4,12 +4,15 @@
     "MSFT"
   ],
   "2026-07-30:momentum": [
+    "AMD",
     "AMZN",
     "CRWV",
+    "INTC",
     "MSFT",
     "MU",
     "SNDK",
-    "STX"
+    "STX",
+    "WDC"
   ],
-  "last_summary_hour": "2026-07-30 14"
+  "last_summary_hour": "2026-07-30 15"
 }
