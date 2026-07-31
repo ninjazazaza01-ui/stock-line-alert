@@ -1,5 +1,6 @@
 {
   "2026-07-31:drop": [
+    "AAPL",
     "AMZN",
     "CRWV",
     "INTC",
@@ -17,6 +18,7 @@
     "AVGO",
     "CRWV",
     "ECHO",
+    "GOOGL",
     "INTC",
     "LUNR",
     "MSFT",
@@ -32,5 +34,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-31 12"
+  "last_summary_hour": "2026-07-31 15"
 }
