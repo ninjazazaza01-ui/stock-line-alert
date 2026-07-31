@@ -1,9 +1,15 @@
 {
-  "2026-07-30:drop": [
-    "LLY",
-    "MSFT"
+  "2026-07-31:drop": [
+    "AMZN",
+    "CRWV",
+    "INTC",
+    "MU",
+    "RKLB",
+    "SNDK",
+    "STX",
+    "WDC"
   ],
-  "2026-07-30:momentum": [
+  "2026-07-31:momentum": [
     "AMD",
     "AMZN",
     "ASML",
@@ -26,5 +32,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-30 22"
+  "last_summary_hour": "2026-07-31 10"
 }
