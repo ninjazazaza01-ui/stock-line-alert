@@ -1,5 +1,8 @@
 {
-  "2026-08-03:drop": [],
+  "2026-08-03:drop": [
+    "STX",
+    "WDC"
+  ],
   "2026-08-03:momentum": [
     "AMZN",
     "GOOGL",
@@ -10,5 +13,5 @@
     "SMCI",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-03 11"
+  "last_summary_hour": "2026-08-03 14"
 }
