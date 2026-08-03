@@ -1,45 +1,14 @@
 {
-  "2026-07-31:drop": [
-    "AAPL",
-    "AMD",
+  "2026-08-03:drop": [],
+  "2026-08-03:momentum": [
     "AMZN",
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "MU",
-    "RKLB",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "WDC"
-  ],
-  "2026-07-31:momentum": [
-    "AMD",
-    "AMZN",
-    "ASML",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
     "GOOGL",
-    "INTC",
-    "LUNR",
     "META",
     "MSFT",
-    "MU",
     "NTAP",
     "NVDA",
-    "ORCL",
-    "RKLB",
     "SMCI",
-    "SNDK",
-    "STX",
-    "TSLA",
-    "TSM",
-    "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-07-31 22"
+  "last_summary_hour": "2026-08-03 11"
 }
