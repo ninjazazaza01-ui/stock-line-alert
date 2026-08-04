@@ -10,11 +10,13 @@
     "ASTS",
     "AVGO",
     "CRWV",
+    "ECHO",
     "GOOGL",
     "INTC",
     "LUNR",
     "META",
     "MSFT",
+    "MU",
     "NTAP",
     "NVDA",
     "ORCL",
@@ -23,10 +25,11 @@
     "SMCI",
     "SNDK",
     "SPCX",
+    "STX",
     "TSLA",
     "TSM",
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-04 17"
+  "last_summary_hour": "2026-08-04 18"
 }
