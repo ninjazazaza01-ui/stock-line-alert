@@ -4,11 +4,14 @@
     "SNDK"
   ],
   "2026-08-04:momentum": [
+    "AAPL",
     "AMD",
     "AMZN",
     "ASTS",
+    "AVGO",
     "CRWV",
     "GOOGL",
+    "INTC",
     "LUNR",
     "META",
     "MSFT",
@@ -17,10 +20,13 @@
     "ORCL",
     "PLTR",
     "RKLB",
+    "SMCI",
     "SNDK",
     "SPCX",
     "TSLA",
-    "VSAT"
+    "TSM",
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-08-04 15"
+  "last_summary_hour": "2026-08-04 17"
 }
