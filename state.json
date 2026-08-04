@@ -3,6 +3,23 @@
     "PLTR",
     "SNDK"
   ],
-  "2026-08-04:momentum": [],
-  "last_summary_hour": "2026-08-04 10"
+  "2026-08-04:momentum": [
+    "AMZN",
+    "ASTS",
+    "CRWV",
+    "GOOGL",
+    "LUNR",
+    "META",
+    "MSFT",
+    "NTAP",
+    "NVDA",
+    "ORCL",
+    "PLTR",
+    "RKLB",
+    "SNDK",
+    "SPCX",
+    "TSLA",
+    "VSAT"
+  ],
+  "last_summary_hour": "2026-08-04 12"
 }
