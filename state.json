@@ -1,22 +1,14 @@
 {
-  "2026-08-04:drop": [
-    "PLTR",
-    "SNDK"
-  ],
-  "2026-08-04:momentum": [
-    "AAPL",
+  "2026-08-05:drop": [],
+  "2026-08-05:momentum": [
     "AMD",
-    "AMZN",
     "ASML",
     "ASTS",
     "AVGO",
     "CRWV",
     "ECHO",
-    "GOOGL",
     "INTC",
     "LUNR",
-    "META",
-    "MSFT",
     "MU",
     "NTAP",
     "NVDA",
@@ -26,11 +18,9 @@
     "SMCI",
     "SNDK",
     "SPCX",
-    "STX",
-    "TSLA",
     "TSM",
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-04 21"
+  "last_summary_hour": "2026-08-05 10"
 }
