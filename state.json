@@ -2,7 +2,10 @@
   "2026-08-05:drop": [
     "GOOGL",
     "LUNR",
-    "SPCX"
+    "SMCI",
+    "SNDK",
+    "SPCX",
+    "WDC"
   ],
   "2026-08-05:momentum": [
     "AMD",
@@ -27,5 +30,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-05 18"
+  "last_summary_hour": "2026-08-05 20"
 }
