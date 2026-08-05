@@ -1,7 +1,8 @@
 {
   "2026-08-05:drop": [
     "GOOGL",
-    "LUNR"
+    "LUNR",
+    "SPCX"
   ],
   "2026-08-05:momentum": [
     "AMD",
@@ -26,5 +27,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-05 16"
+  "last_summary_hour": "2026-08-05 18"
 }
