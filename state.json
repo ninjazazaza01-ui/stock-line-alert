@@ -1,34 +1,8 @@
 {
-  "2026-08-05:drop": [
-    "GOOGL",
-    "LUNR",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "WDC"
-  ],
-  "2026-08-05:momentum": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
-    "INTC",
+  "2026-08-06:drop": [],
+  "2026-08-06:momentum": [
     "LLY",
-    "LUNR",
-    "MU",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "PLTR",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "TSM",
-    "VSAT",
-    "WDC"
+    "NVDA"
   ],
-  "last_summary_hour": "2026-08-05 22"
+  "last_summary_hour": "2026-08-06 10"
 }
