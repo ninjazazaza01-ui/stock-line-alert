@@ -1,6 +1,10 @@
 {
   "2026-08-07:drop": [
-    "CRWV"
+    "CRWV",
+    "MU",
+    "SNDK",
+    "STX",
+    "WDC"
   ],
   "2026-08-07:momentum": [
     "LUNR",
@@ -8,5 +12,5 @@
     "NTAP",
     "SPCX"
   ],
-  "last_summary_hour": "2026-08-07 13"
+  "last_summary_hour": "2026-08-07 14"
 }
