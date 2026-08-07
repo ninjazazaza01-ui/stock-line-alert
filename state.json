@@ -1,17 +1,12 @@
 {
-  "2026-08-06:drop": [
-    "GOOGL",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "WDC"
+  "2026-08-07:drop": [
+    "CRWV"
   ],
-  "2026-08-06:momentum": [
-    "LLY",
+  "2026-08-07:momentum": [
     "LUNR",
-    "NVDA",
-    "RKLB",
+    "MSFT",
+    "NTAP",
     "SPCX"
   ],
-  "last_summary_hour": "2026-08-06 15"
+  "last_summary_hour": "2026-08-07 00"
 }
