@@ -4,10 +4,12 @@
     "MU",
     "SNDK",
     "STX",
+    "VSAT",
     "WDC"
   ],
   "2026-08-07:momentum": [
     "ASTS",
+    "ECHO",
     "LUNR",
     "MSFT",
     "NTAP",
@@ -16,5 +18,5 @@
     "SPCX",
     "TSLA"
   ],
-  "last_summary_hour": "2026-08-07 17"
+  "last_summary_hour": "2026-08-07 18"
 }
