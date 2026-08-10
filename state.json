@@ -1,6 +1,9 @@
 {
   "2026-08-10:drop": [
-    "INTC"
+    "ASTS",
+    "INTC",
+    "LUNR",
+    "RKLB"
   ],
   "2026-08-10:momentum": [
     "ASML",
@@ -17,5 +20,5 @@
     "SPCX",
     "TSLA"
   ],
-  "last_summary_hour": "2026-08-10 14"
+  "last_summary_hour": "2026-08-10 15"
 }
