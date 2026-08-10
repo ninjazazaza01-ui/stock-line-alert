@@ -1,21 +1,13 @@
 {
-  "2026-08-07:drop": [
-    "CRWV",
-    "MU",
-    "SNDK",
-    "STX",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-08-07:momentum": [
+  "2026-08-10:drop": [],
+  "2026-08-10:momentum": [
     "ASML",
     "ASTS",
     "CRWV",
     "ECHO",
     "LUNR",
-    "MSFT",
-    "NTAP",
     "NVDA",
+    "ORCL",
     "PFE",
     "PLTR",
     "RKLB",
@@ -23,5 +15,5 @@
     "SPCX",
     "TSLA"
   ],
-  "last_summary_hour": "2026-08-07 21"
+  "last_summary_hour": "2026-08-10 09"
 }
