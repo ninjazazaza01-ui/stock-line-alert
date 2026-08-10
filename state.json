@@ -1,6 +1,7 @@
 {
   "2026-08-10:drop": [
     "ASTS",
+    "CRWV",
     "ECHO",
     "INTC",
     "LUNR",
@@ -22,7 +23,8 @@
     "SMCI",
     "SNDK",
     "SPCX",
-    "TSLA"
+    "TSLA",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-08-10 19"
+  "last_summary_hour": "2026-08-10 20"
 }
