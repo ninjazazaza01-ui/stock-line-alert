@@ -1,30 +1,12 @@
 {
-  "2026-08-10:drop": [
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "RKLB"
-  ],
-  "2026-08-10:momentum": [
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
+  "2026-08-11:drop": [],
+  "2026-08-11:momentum": [
     "LLY",
-    "LUNR",
     "NTAP",
-    "NVDA",
     "ORCL",
-    "PFE",
-    "PLTR",
-    "RKLB",
-    "SMCI",
     "SNDK",
     "SPCX",
-    "TSLA",
     "VSAT"
   ],
-  "last_summary_hour": "2026-08-10 22"
+  "last_summary_hour": "2026-08-11 09"
 }
