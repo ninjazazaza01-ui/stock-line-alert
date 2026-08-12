@@ -1,21 +1,11 @@
 {
-  "2026-08-11:drop": [
-    "GOOGL",
-    "ORCL",
-    "SPCX"
-  ],
-  "2026-08-11:momentum": [
-    "ASML",
-    "ASTS",
+  "2026-08-12:drop": [
     "CRWV",
-    "LLY",
-    "LUNR",
-    "NTAP",
-    "ORCL",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "VSAT"
+    "SMCI"
   ],
-  "last_summary_hour": "2026-08-11 22"
+  "2026-08-12:momentum": [
+    "ASML",
+    "STX"
+  ],
+  "last_summary_hour": "2026-08-12 09"
 }
