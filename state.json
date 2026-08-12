@@ -1,6 +1,7 @@
 {
   "2026-08-12:drop": [
     "CRWV",
+    "META",
     "SMCI"
   ],
   "2026-08-12:momentum": [
@@ -9,11 +10,13 @@
     "CRWV",
     "INTC",
     "LUNR",
+    "MU",
+    "NVDA",
     "ORCL",
     "SMCI",
     "SNDK",
     "SPCX",
     "STX"
   ],
-  "last_summary_hour": "2026-08-12 16"
+  "last_summary_hour": "2026-08-12 17"
 }
