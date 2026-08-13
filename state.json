@@ -1,5 +1,6 @@
 {
   "2026-08-13:drop": [
+    "ASTS",
     "LUNR",
     "SPCX"
   ],
@@ -19,5 +20,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-13 15"
+  "last_summary_hour": "2026-08-13 16"
 }
