@@ -1,29 +1,17 @@
 {
-  "2026-08-13:drop": [
-    "ASTS",
-    "LUNR",
-    "SPCX",
-    "VSAT"
-  ],
-  "2026-08-13:momentum": [
+  "2026-08-14:drop": [],
+  "2026-08-14:momentum": [
     "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
     "INTC",
     "LUNR",
     "META",
     "MU",
-    "NVDA",
-    "ORCL",
     "PLTR",
     "SMCI",
     "SNDK",
-    "SPCX",
     "STX",
     "TSLA",
-    "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-13 22"
+  "last_summary_hour": "2026-08-14 09"
 }
