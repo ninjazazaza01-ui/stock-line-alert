@@ -1,6 +1,7 @@
 {
   "2026-08-14:drop": [
     "AVGO",
+    "ORCL",
     "SPCX"
   ],
   "2026-08-14:momentum": [
@@ -17,5 +18,5 @@
     "TSLA",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-14 17"
+  "last_summary_hour": "2026-08-14 18"
 }
