@@ -1,10 +1,12 @@
 {
   "2026-08-17:drop": [
+    "META",
     "ORCL",
     "SMCI"
   ],
   "2026-08-17:momentum": [
     "AMD",
+    "CRWV",
     "LUNR",
     "MU",
     "RKLB",
@@ -13,5 +15,5 @@
     "STX",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-17 15"
+  "last_summary_hour": "2026-08-17 16"
 }
