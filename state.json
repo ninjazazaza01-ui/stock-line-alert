@@ -1,5 +1,6 @@
 {
   "2026-08-17:drop": [
+    "ORCL",
     "SMCI"
   ],
   "2026-08-17:momentum": [
@@ -10,5 +11,5 @@
     "STX",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-17 13"
+  "last_summary_hour": "2026-08-17 14"
 }
