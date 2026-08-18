@@ -10,6 +10,7 @@
     "META",
     "MU",
     "RKLB",
+    "SMCI",
     "SNDK",
     "SPCX",
     "STX",
@@ -18,5 +19,5 @@
     "WDC"
   ],
   "2026-08-18:momentum": [],
-  "last_summary_hour": "2026-08-18 14"
+  "last_summary_hour": "2026-08-18 15"
 }
