@@ -1,5 +1,17 @@
 {
-  "2026-08-18:drop": [],
+  "2026-08-18:drop": [
+    "AMD",
+    "ASML",
+    "ASTS",
+    "CRWV",
+    "INTC",
+    "META",
+    "MU",
+    "SNDK",
+    "STX",
+    "VSAT",
+    "WDC"
+  ],
   "2026-08-18:momentum": [],
   "last_summary_hour": "2026-08-18 13"
 }
