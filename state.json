@@ -1,22 +1,5 @@
 {
-  "2026-08-17:drop": [
-    "META",
-    "MSFT",
-    "ORCL",
-    "SMCI"
-  ],
-  "2026-08-17:momentum": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "LUNR",
-    "MU",
-    "RKLB",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "WDC"
-  ],
-  "last_summary_hour": "2026-08-17 22"
+  "2026-08-18:drop": [],
+  "2026-08-18:momentum": [],
+  "last_summary_hour": "2026-08-18 08"
 }
