@@ -1,5 +1,10 @@
 {
-  "2026-08-19:drop": [],
+  "2026-08-19:drop": [
+    "AVGO",
+    "LUNR",
+    "RKLB",
+    "VSAT"
+  ],
   "2026-08-19:momentum": [
     "JNJ",
     "LLY"
