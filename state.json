@@ -1,13 +1,18 @@
 {
   "2026-08-19:drop": [
+    "AMD",
     "AVGO",
+    "INTC",
     "LUNR",
+    "NTAP",
     "RKLB",
-    "VSAT"
+    "STX",
+    "VSAT",
+    "WDC"
   ],
   "2026-08-19:momentum": [
     "JNJ",
     "LLY"
   ],
-  "last_summary_hour": "2026-08-19 13"
+  "last_summary_hour": "2026-08-19 14"
 }
