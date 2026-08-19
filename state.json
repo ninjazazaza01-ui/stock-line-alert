@@ -1,26 +1,8 @@
 {
-  "2026-08-18:drop": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "META",
-    "MU",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "TSM",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-08-18:momentum": [
+  "2026-08-19:drop": [],
+  "2026-08-19:momentum": [
     "JNJ",
     "LLY"
   ],
-  "last_summary_hour": "2026-08-18 21"
+  "last_summary_hour": "2026-08-19 08"
 }
