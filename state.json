@@ -1,9 +1,11 @@
 {
   "2026-08-20:drop": [
+    "ASTS",
     "INTC",
     "LUNR",
     "RKLB",
-    "SPCX"
+    "SPCX",
+    "VSAT"
   ],
   "2026-08-20:momentum": [
     "AAPL",
@@ -13,5 +15,5 @@
     "PLTR",
     "TSLA"
   ],
-  "last_summary_hour": "2026-08-20 13"
+  "last_summary_hour": "2026-08-20 14"
 }
