@@ -1,25 +1,9 @@
 {
-  "2026-08-20:drop": [
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "RKLB",
-    "SPCX",
-    "TSLA",
-    "VSAT"
-  ],
-  "2026-08-20:momentum": [
-    "AAPL",
-    "AMZN",
-    "LLY",
+  "2026-08-21:drop": [],
+  "2026-08-21:momentum": [
     "MU",
-    "PFE",
-    "PLTR",
     "SNDK",
-    "STX",
-    "TSLA"
+    "STX"
   ],
-  "last_summary_hour": "2026-08-20 22"
+  "last_summary_hour": "2026-08-21 08"
 }
