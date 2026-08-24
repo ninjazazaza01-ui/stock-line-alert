@@ -1,16 +1,13 @@
 {
-  "2026-08-21:drop": [],
-  "2026-08-21:momentum": [
+  "2026-08-24:drop": [],
+  "2026-08-24:momentum": [
     "ASTS",
     "LUNR",
-    "MU",
     "ORCL",
     "PLTR",
     "SMCI",
-    "SNDK",
     "SPCX",
-    "STX",
     "TSLA"
   ],
-  "last_summary_hour": "2026-08-21 21"
+  "last_summary_hour": "2026-08-24 08"
 }
