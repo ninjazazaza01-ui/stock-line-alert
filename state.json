@@ -1,32 +1,7 @@
 {
-  "2026-08-24:drop": [
-    "AMD",
-    "ASTS",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "MU",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "TSLA",
-    "TSM",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-08-24:momentum": [
-    "ASTS",
-    "LUNR",
-    "ORCL",
-    "PLTR",
-    "SMCI",
-    "SPCX",
-    "TSLA",
+  "2026-08-25:drop": [],
+  "2026-08-25:momentum": [
     "UNH"
   ],
-  "last_summary_hour": "2026-08-24 21"
+  "last_summary_hour": "2026-08-25 08"
 }
