@@ -1,6 +1,7 @@
 {
   "2026-08-26:drop": [
     "ASTS",
+    "LLY",
     "LUNR"
   ],
   "2026-08-26:momentum": [
@@ -10,5 +11,5 @@
     "SMCI",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-26 14"
+  "last_summary_hour": "2026-08-26 16"
 }
