@@ -2,7 +2,8 @@
   "2026-08-26:drop": [
     "ASTS",
     "LLY",
-    "LUNR"
+    "LUNR",
+    "SMCI"
   ],
   "2026-08-26:momentum": [
     "AMD",
@@ -11,5 +12,5 @@
     "SMCI",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-26 16"
+  "last_summary_hour": "2026-08-26 19"
 }
