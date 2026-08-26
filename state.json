@@ -1,13 +1,11 @@
 {
-  "2026-08-25:drop": [],
-  "2026-08-25:momentum": [
+  "2026-08-26:drop": [],
+  "2026-08-26:momentum": [
     "AMD",
     "NVDA",
     "PFE",
     "SMCI",
-    "TSLA",
-    "UNH",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-25 21"
+  "last_summary_hour": "2026-08-26 08"
 }
