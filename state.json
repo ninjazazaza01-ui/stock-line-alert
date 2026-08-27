@@ -8,12 +8,16 @@
     "WDC"
   ],
   "2026-08-27:momentum": [
+    "ASTS",
     "AVGO",
     "INTC",
     "NVDA",
+    "ORCL",
     "PLTR",
+    "RKLB",
     "SMCI",
-    "TSLA"
+    "TSLA",
+    "TSM"
   ],
-  "last_summary_hour": "2026-08-27 18"
+  "last_summary_hour": "2026-08-27 22"
 }
