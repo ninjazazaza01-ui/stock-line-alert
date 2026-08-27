@@ -1,19 +1,19 @@
 {
-  "2026-08-26:drop": [
-    "ASTS",
-    "LLY",
-    "LUNR",
-    "SMCI"
-  ],
-  "2026-08-26:momentum": [
-    "AMD",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "PFE",
-    "PLTR",
-    "SMCI",
+  "2026-08-27:drop": [
+    "ASML",
+    "CRWV",
+    "MU",
+    "SNDK",
+    "STX",
     "WDC"
   ],
-  "last_summary_hour": "2026-08-26 22"
+  "2026-08-27:momentum": [
+    "AVGO",
+    "INTC",
+    "NVDA",
+    "PLTR",
+    "SMCI",
+    "TSLA"
+  ],
+  "last_summary_hour": "2026-08-27 18"
 }
