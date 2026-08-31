@@ -1,13 +1,7 @@
 {
-  "2026-08-28:drop": [
-    "ASTS",
-    "LUNR",
-    "NVDA",
-    "RKLB",
-    "VSAT"
+  "2026-08-31:drop": [],
+  "2026-08-31:momentum": [
+    "TSLA"
   ],
-  "2026-08-28:momentum": [
-    "AMZN"
-  ],
-  "last_summary_hour": "2026-08-28 22"
+  "last_summary_hour": "2026-08-31 16"
 }
