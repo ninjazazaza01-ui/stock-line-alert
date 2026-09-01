@@ -4,13 +4,16 @@
     "CRWV",
     "LUNR",
     "ORCL",
-    "RKLB"
+    "PLTR",
+    "RKLB",
+    "TSLA"
   ],
   "2026-09-01:momentum": [
     "AAPL",
+    "JNJ",
     "MU",
     "SNDK",
     "TSLA"
   ],
-  "last_summary_hour": "2026-09-01 17"
+  "last_summary_hour": "2026-09-01 19"
 }
