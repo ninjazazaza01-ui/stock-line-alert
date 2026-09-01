@@ -1,9 +1,16 @@
 {
-  "2026-09-01:drop": [],
+  "2026-09-01:drop": [
+    "ASTS",
+    "CRWV",
+    "LUNR",
+    "ORCL",
+    "RKLB"
+  ],
   "2026-09-01:momentum": [
+    "AAPL",
     "MU",
     "SNDK",
     "TSLA"
   ],
-  "last_summary_hour": "2026-09-01 13"
+  "last_summary_hour": "2026-09-01 17"
 }
