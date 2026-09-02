@@ -1,19 +1,8 @@
 {
-  "2026-09-01:drop": [
-    "ASTS",
-    "CRWV",
-    "LUNR",
-    "ORCL",
-    "PLTR",
-    "RKLB",
-    "TSLA"
-  ],
-  "2026-09-01:momentum": [
+  "2026-09-02:drop": [],
+  "2026-09-02:momentum": [
     "AAPL",
-    "JNJ",
-    "MU",
-    "SNDK",
-    "TSLA"
+    "JNJ"
   ],
-  "last_summary_hour": "2026-09-01 22"
+  "last_summary_hour": "2026-09-02 12"
 }
