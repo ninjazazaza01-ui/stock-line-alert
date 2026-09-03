@@ -1,16 +1,12 @@
 {
-  "2026-09-02:drop": [
-    "PLTR"
-  ],
-  "2026-09-02:momentum": [
-    "AAPL",
+  "2026-09-03:drop": [],
+  "2026-09-03:momentum": [
     "ASTS",
-    "JNJ",
     "META",
     "MU",
     "NVDA",
     "ORCL",
     "VSAT"
   ],
-  "last_summary_hour": "2026-09-02 22"
+  "last_summary_hour": "2026-09-03 12"
 }
