@@ -1,16 +1,11 @@
 {
-  "2026-09-03:drop": [
-    "LUNR"
-  ],
-  "2026-09-03:momentum": [
-    "ASTS",
+  "2026-09-04:drop": [],
+  "2026-09-04:momentum": [
     "CRWV",
     "ECHO",
     "META",
     "MSFT",
-    "MU",
     "NTAP",
-    "NVDA",
     "ORCL",
     "PLTR",
     "SMCI",
@@ -18,5 +13,5 @@
     "TSLA",
     "VSAT"
   ],
-  "last_summary_hour": "2026-09-03 21"
+  "last_summary_hour": "2026-09-04 12"
 }
