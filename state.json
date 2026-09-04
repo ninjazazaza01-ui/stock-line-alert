@@ -1,17 +1,26 @@
 {
-  "2026-09-04:drop": [],
+  "2026-09-04:drop": [
+    "PLTR",
+    "TSLA"
+  ],
   "2026-09-04:momentum": [
+    "AMD",
+    "ASML",
     "CRWV",
     "ECHO",
+    "INTC",
     "META",
     "MSFT",
+    "MU",
     "NTAP",
     "ORCL",
     "PLTR",
     "SMCI",
+    "SNDK",
     "SPCX",
     "TSLA",
+    "TSM",
     "VSAT"
   ],
-  "last_summary_hour": "2026-09-04 12"
+  "last_summary_hour": "2026-09-04 16"
 }
