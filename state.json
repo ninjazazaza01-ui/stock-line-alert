@@ -5,6 +5,7 @@
     "ECHO",
     "LUNR",
     "RKLB",
+    "SMCI",
     "SPCX",
     "VSAT"
   ],
@@ -29,5 +30,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-09-09 19"
+  "last_summary_hour": "2026-09-09 22"
 }
