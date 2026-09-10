@@ -1,9 +1,18 @@
 {
-  "2026-09-10:drop": [],
+  "2026-09-10:drop": [
+    "INTC",
+    "MU",
+    "ORCL",
+    "SNDK",
+    "STX",
+    "WDC"
+  ],
   "2026-09-10:momentum": [
+    "AAPL",
     "AMD",
     "META",
-    "MU"
+    "MU",
+    "SPCX"
   ],
-  "last_summary_hour": "2026-09-10 12"
+  "last_summary_hour": "2026-09-10 16"
 }
