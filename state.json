@@ -1,5 +1,6 @@
 {
   "2026-09-10:drop": [
+    "ASTS",
     "INTC",
     "MU",
     "ORCL",
@@ -14,5 +15,5 @@
     "MU",
     "SPCX"
   ],
-  "last_summary_hour": "2026-09-10 16"
+  "last_summary_hour": "2026-09-10 19"
 }
