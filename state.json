@@ -1,9 +1,12 @@
 {
   "2026-09-10:drop": [
+    "AMD",
     "ASTS",
+    "CRWV",
     "INTC",
     "MU",
     "ORCL",
+    "SMCI",
     "SNDK",
     "STX",
     "WDC"
@@ -13,7 +16,8 @@
     "AMD",
     "META",
     "MU",
-    "SPCX"
+    "SPCX",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-09-10 19"
+  "last_summary_hour": "2026-09-10 21"
 }
