@@ -1,10 +1,14 @@
 {
   "2026-09-11:drop": [
-    "ORCL"
+    "ORCL",
+    "STX"
   ],
   "2026-09-11:momentum": [
     "AAPL",
+    "GOOGL",
+    "RKLB",
+    "SMCI",
     "VSAT"
   ],
-  "last_summary_hour": "2026-09-11 12"
+  "last_summary_hour": "2026-09-11 16"
 }
