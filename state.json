@@ -5,6 +5,7 @@
     "AVGO",
     "CRWV",
     "INTC",
+    "LUNR",
     "MU",
     "NTAP",
     "NVDA",
@@ -17,9 +18,10 @@
   ],
   "2026-09-14:momentum": [
     "GOOGL",
+    "LLY",
     "META",
     "MSFT",
     "PLTR"
   ],
-  "last_summary_hour": "2026-09-14 18"
+  "last_summary_hour": "2026-09-14 21"
 }
