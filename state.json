@@ -1,19 +1,20 @@
 {
-  "2026-09-11:drop": [
-    "ORCL",
-    "STX"
-  ],
-  "2026-09-11:momentum": [
-    "AAPL",
+  "2026-09-14:drop": [
     "AMD",
-    "AMZN",
-    "GOOGL",
+    "ASML",
+    "AVGO",
+    "CRWV",
     "INTC",
+    "MU",
     "NTAP",
-    "RKLB",
+    "NVDA",
     "SMCI",
-    "SPCX",
-    "VSAT"
+    "SNDK",
+    "STX",
+    "TSM",
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-09-11 21"
+  "2026-09-14:momentum": [],
+  "last_summary_hour": "2026-09-14 14"
 }
