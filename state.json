@@ -1,10 +1,16 @@
 {
-  "2026-09-15:drop": [],
+  "2026-09-15:drop": [
+    "SPCX",
+    "STX",
+    "WDC"
+  ],
   "2026-09-15:momentum": [
+    "AMD",
     "GOOGL",
     "LLY",
     "META",
-    "PLTR"
+    "PLTR",
+    "RKLB"
   ],
-  "last_summary_hour": "2026-09-15 13"
+  "last_summary_hour": "2026-09-15 17"
 }
