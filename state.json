@@ -1,27 +1,10 @@
 {
-  "2026-09-14:drop": [
-    "AMD",
-    "ASML",
-    "AVGO",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "MU",
-    "NTAP",
-    "NVDA",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "TSM",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-09-14:momentum": [
+  "2026-09-15:drop": [],
+  "2026-09-15:momentum": [
     "GOOGL",
     "LLY",
     "META",
-    "MSFT",
     "PLTR"
   ],
-  "last_summary_hour": "2026-09-14 21"
+  "last_summary_hour": "2026-09-15 13"
 }
