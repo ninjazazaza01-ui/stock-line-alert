@@ -1,5 +1,8 @@
 {
   "2026-09-15:drop": [
+    "CRWV",
+    "ECHO",
+    "SMCI",
     "SPCX",
     "STX",
     "WDC"
@@ -12,5 +15,5 @@
     "PLTR",
     "RKLB"
   ],
-  "last_summary_hour": "2026-09-15 17"
+  "last_summary_hour": "2026-09-15 20"
 }
