@@ -1,19 +1,7 @@
 {
-  "2026-09-15:drop": [
-    "CRWV",
-    "ECHO",
-    "SMCI",
-    "SPCX",
-    "STX",
-    "WDC"
+  "2026-09-16:drop": [],
+  "2026-09-16:momentum": [
+    "AMD"
   ],
-  "2026-09-15:momentum": [
-    "AMD",
-    "GOOGL",
-    "LLY",
-    "META",
-    "PLTR",
-    "RKLB"
-  ],
-  "last_summary_hour": "2026-09-15 23"
+  "last_summary_hour": "2026-09-16 13"
 }
