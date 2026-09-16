@@ -1,7 +1,11 @@
 {
   "2026-09-16:drop": [],
   "2026-09-16:momentum": [
-    "AMD"
+    "AMD",
+    "ECHO",
+    "INTC",
+    "ORCL",
+    "SPCX"
   ],
-  "last_summary_hour": "2026-09-16 13"
+  "last_summary_hour": "2026-09-16 17"
 }
