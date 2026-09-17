@@ -4,6 +4,7 @@
   ],
   "2026-09-17:momentum": [
     "AMD",
+    "AMZN",
     "ASTS",
     "CRWV",
     "INTC",
@@ -15,7 +16,8 @@
     "SNDK",
     "SPCX",
     "STX",
-    "TSLA"
+    "TSLA",
+    "TSM"
   ],
   "last_summary_hour": "2026-09-17 17"
 }
