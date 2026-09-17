@@ -6,10 +6,13 @@
     "AMD",
     "AMZN",
     "ASTS",
+    "AVGO",
     "CRWV",
     "INTC",
     "LUNR",
     "MU",
+    "NTAP",
+    "NVDA",
     "ORCL",
     "RKLB",
     "SMCI",
@@ -17,7 +20,8 @@
     "SPCX",
     "STX",
     "TSLA",
-    "TSM"
+    "TSM",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-09-17 17"
+  "last_summary_hour": "2026-09-17 20"
 }
