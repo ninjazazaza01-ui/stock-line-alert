@@ -3,11 +3,19 @@
     "CRWV"
   ],
   "2026-09-17:momentum": [
+    "AMD",
+    "ASTS",
     "CRWV",
     "INTC",
+    "LUNR",
+    "MU",
     "ORCL",
+    "RKLB",
     "SMCI",
-    "SPCX"
+    "SNDK",
+    "SPCX",
+    "STX",
+    "TSLA"
   ],
-  "last_summary_hour": "2026-09-17 13"
+  "last_summary_hour": "2026-09-17 17"
 }
