@@ -1,13 +1,10 @@
 {
-  "2026-09-17:drop": [
-    "CRWV"
-  ],
-  "2026-09-17:momentum": [
+  "2026-09-18:drop": [],
+  "2026-09-18:momentum": [
     "AMD",
     "AMZN",
     "ASTS",
     "AVGO",
-    "CRWV",
     "INTC",
     "LUNR",
     "MU",
@@ -23,5 +20,5 @@
     "TSM",
     "VSAT"
   ],
-  "last_summary_hour": "2026-09-17 23"
+  "last_summary_hour": "2026-09-18 12"
 }
