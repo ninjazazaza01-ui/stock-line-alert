@@ -1,5 +1,11 @@
 {
-  "2026-09-18:drop": [],
+  "2026-09-18:drop": [
+    "ASTS",
+    "LUNR",
+    "ORCL",
+    "RKLB",
+    "SMCI"
+  ],
   "2026-09-18:momentum": [
     "AMD",
     "AMZN",
@@ -18,7 +24,8 @@
     "STX",
     "TSLA",
     "TSM",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-09-18 12"
+  "last_summary_hour": "2026-09-18 16"
 }
