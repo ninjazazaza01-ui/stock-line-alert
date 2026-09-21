@@ -2,12 +2,18 @@
   "2026-09-21:drop": [],
   "2026-09-21:momentum": [
     "AMD",
+    "ASTS",
     "CRWV",
+    "ECHO",
     "INTC",
     "LUNR",
     "META",
+    "MU",
+    "NVDA",
     "RKLB",
-    "SMCI"
+    "SMCI",
+    "STX",
+    "TSLA"
   ],
-  "last_summary_hour": "2026-09-21 14"
+  "last_summary_hour": "2026-09-21 18"
 }
