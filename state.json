@@ -2,6 +2,7 @@
   "2026-09-22:drop": [],
   "2026-09-22:momentum": [
     "AMD",
+    "ASML",
     "ASTS",
     "CRWV",
     "ECHO",
@@ -16,7 +17,8 @@
     "SNDK",
     "STX",
     "TSLA",
-    "TSM"
+    "TSM",
+    "WDC"
   ],
-  "last_summary_hour": "2026-09-22 17"
+  "last_summary_hour": "2026-09-22 20"
 }
