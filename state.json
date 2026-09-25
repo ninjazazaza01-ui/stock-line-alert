@@ -1,5 +1,7 @@
 {
-  "2026-09-25:drop": [],
+  "2026-09-25:drop": [
+    "META"
+  ],
   "2026-09-25:momentum": [
     "AMD",
     "CRWV",
@@ -7,7 +9,9 @@
     "LLY",
     "LUNR",
     "META",
-    "RKLB"
+    "MSFT",
+    "RKLB",
+    "SMCI"
   ],
-  "last_summary_hour": "2026-09-25 13"
+  "last_summary_hour": "2026-09-25 17"
 }
