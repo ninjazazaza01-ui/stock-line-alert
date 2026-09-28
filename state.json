@@ -3,11 +3,14 @@
     "AMD",
     "INTC",
     "META",
+    "ORCL",
+    "SMCI",
+    "SNDK",
     "TSLA",
     "VSAT"
   ],
   "2026-09-28:momentum": [
     "NVDA"
   ],
-  "last_summary_hour": "2026-09-28 16"
+  "last_summary_hour": "2026-09-28 20"
 }
