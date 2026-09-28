@@ -1,18 +1,13 @@
 {
-  "2026-09-25:drop": [
-    "INTC",
-    "META"
-  ],
-  "2026-09-25:momentum": [
+  "2026-09-28:drop": [
     "AMD",
-    "CRWV",
     "INTC",
-    "LLY",
-    "LUNR",
     "META",
-    "MSFT",
-    "RKLB",
-    "SMCI"
+    "TSLA",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-09-25 23"
+  "2026-09-28:momentum": [
+    "NVDA"
+  ],
+  "last_summary_hour": "2026-09-28 16"
 }
