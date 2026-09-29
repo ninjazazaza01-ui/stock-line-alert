@@ -1,16 +1,14 @@
 {
-  "2026-09-28:drop": [
+  "2026-09-29:drop": [
     "AMD",
     "INTC",
+    "LUNR",
     "META",
     "ORCL",
     "SMCI",
     "SNDK",
-    "TSLA",
-    "VSAT"
+    "TSLA"
   ],
-  "2026-09-28:momentum": [
-    "NVDA"
-  ],
-  "last_summary_hour": "2026-09-28 20"
+  "2026-09-29:momentum": [],
+  "last_summary_hour": "2026-09-29 00"
 }
