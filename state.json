@@ -1,16 +1,20 @@
 {
   "2026-09-29:drop": [
     "AMD",
+    "ASTS",
     "INTC",
     "LUNR",
     "META",
     "ORCL",
     "SMCI",
     "SNDK",
-    "TSLA"
+    "TSLA",
+    "VSAT"
   ],
   "2026-09-29:momentum": [
+    "ASML",
+    "META",
     "ORCL"
   ],
-  "last_summary_hour": "2026-09-29 14"
+  "last_summary_hour": "2026-09-29 18"
 }
