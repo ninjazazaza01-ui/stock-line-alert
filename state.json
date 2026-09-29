@@ -6,6 +6,7 @@
     "LUNR",
     "META",
     "ORCL",
+    "RKLB",
     "SMCI",
     "SNDK",
     "TSLA",
@@ -14,7 +15,9 @@
   "2026-09-29:momentum": [
     "ASML",
     "META",
-    "ORCL"
+    "NTAP",
+    "ORCL",
+    "SPCX"
   ],
-  "last_summary_hour": "2026-09-29 18"
+  "last_summary_hour": "2026-09-29 22"
 }
