@@ -1,5 +1,10 @@
 {
   "2026-09-30:drop": [],
-  "2026-09-30:momentum": [],
-  "last_summary_hour": "2026-09-30 14"
+  "2026-09-30:momentum": [
+    "AAPL",
+    "ASTS",
+    "GOOGL",
+    "INTC"
+  ],
+  "last_summary_hour": "2026-09-30 18"
 }
