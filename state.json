@@ -1,23 +1,5 @@
 {
-  "2026-09-29:drop": [
-    "AMD",
-    "ASTS",
-    "INTC",
-    "LUNR",
-    "META",
-    "ORCL",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "TSLA",
-    "VSAT"
-  ],
-  "2026-09-29:momentum": [
-    "ASML",
-    "META",
-    "NTAP",
-    "ORCL",
-    "SPCX"
-  ],
-  "last_summary_hour": "2026-09-29 22"
+  "2026-09-30:drop": [],
+  "2026-09-30:momentum": [],
+  "last_summary_hour": "2026-09-30 14"
 }
