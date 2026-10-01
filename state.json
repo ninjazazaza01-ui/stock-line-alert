@@ -1,8 +1,11 @@
 {
   "2026-10-01:drop": [
     "ASTS",
+    "GOOGL",
     "LUNR"
   ],
-  "2026-10-01:momentum": [],
-  "last_summary_hour": "2026-10-01 15"
+  "2026-10-01:momentum": [
+    "SNDK"
+  ],
+  "last_summary_hour": "2026-10-01 18"
 }
