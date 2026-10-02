@@ -1,15 +1,13 @@
 {
-  "2026-10-01:drop": [
+  "2026-10-02:drop": [
+    "STX",
+    "WDC"
+  ],
+  "2026-10-02:momentum": [
     "ASTS",
-    "GOOGL",
-    "LUNR"
+    "LUNR",
+    "RKLB",
+    "TSLA"
   ],
-  "2026-10-01:momentum": [
-    "MU",
-    "NTAP",
-    "SMCI",
-    "SNDK",
-    "STX"
-  ],
-  "last_summary_hour": "2026-10-01 22"
+  "last_summary_hour": "2026-10-02 14"
 }
