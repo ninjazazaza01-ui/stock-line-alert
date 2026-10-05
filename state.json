@@ -1,24 +1,14 @@
 {
-  "2026-10-02:drop": [
-    "SNDK",
-    "STX",
-    "WDC"
+  "2026-10-05:drop": [
+    "LUNR"
   ],
-  "2026-10-02:momentum": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "AVGO",
+  "2026-10-05:momentum": [
     "ECHO",
-    "LUNR",
-    "NTAP",
-    "ORCL",
-    "RKLB",
-    "SMCI",
     "SPCX",
+    "STX",
     "TSLA",
     "TSM",
-    "VSAT"
+    "WDC"
   ],
-  "last_summary_hour": "2026-10-02 22"
+  "last_summary_hour": "2026-10-05 16"
 }
