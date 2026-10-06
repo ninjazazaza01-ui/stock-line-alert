@@ -1,5 +1,6 @@
 {
   "2026-10-06:drop": [
+    "INTC",
     "LUNR",
     "STX",
     "WDC"
@@ -11,6 +12,7 @@
     "CRWV",
     "ECHO",
     "LUNR",
+    "NTAP",
     "NVDA",
     "RKLB",
     "SPCX",
@@ -20,5 +22,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-10-06 18"
+  "last_summary_hour": "2026-10-06 22"
 }
