@@ -1,8 +1,8 @@
 {
-  "2026-10-05:drop": [
+  "2026-10-06:drop": [
     "LUNR"
   ],
-  "2026-10-05:momentum": [
+  "2026-10-06:momentum": [
     "AVGO",
     "ECHO",
     "NVDA",
@@ -12,5 +12,5 @@
     "TSM",
     "WDC"
   ],
-  "last_summary_hour": "2026-10-05 20"
+  "last_summary_hour": "2026-10-06 01"
 }
