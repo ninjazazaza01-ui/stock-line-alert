@@ -1,16 +1,20 @@
 {
   "2026-10-06:drop": [
-    "LUNR"
+    "LUNR",
+    "STX",
+    "WDC"
   ],
   "2026-10-06:momentum": [
+    "ASTS",
     "AVGO",
     "ECHO",
     "NVDA",
+    "RKLB",
     "SPCX",
     "STX",
     "TSLA",
     "TSM",
     "WDC"
   ],
-  "last_summary_hour": "2026-10-06 01"
+  "last_summary_hour": "2026-10-06 14"
 }
