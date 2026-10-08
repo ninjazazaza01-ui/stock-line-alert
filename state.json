@@ -1,18 +1,25 @@
 {
   "2026-10-08:drop": [
+    "AMD",
     "ASTS",
+    "AVGO",
     "CRWV",
     "ECHO",
     "INTC",
     "LLY",
     "LUNR",
+    "MU",
+    "ORCL",
     "RKLB",
     "SMCI",
     "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
     "VSAT"
   ],
   "2026-10-08:momentum": [
     "PLTR"
   ],
-  "last_summary_hour": "2026-10-08 15"
+  "last_summary_hour": "2026-10-08 19"
 }
