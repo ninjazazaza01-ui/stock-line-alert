@@ -1,18 +1,18 @@
 {
-  "2026-10-07:drop": [
+  "2026-10-08:drop": [
     "ASTS",
     "CRWV",
+    "ECHO",
+    "INTC",
+    "LLY",
     "LUNR",
     "RKLB",
+    "SMCI",
+    "SNDK",
     "VSAT"
   ],
-  "2026-10-07:momentum": [
-    "LLY",
-    "MU",
-    "NTAP",
-    "PFE",
-    "SMCI",
-    "SNDK"
+  "2026-10-08:momentum": [
+    "PLTR"
   ],
-  "last_summary_hour": "2026-10-07 23"
+  "last_summary_hour": "2026-10-08 15"
 }
