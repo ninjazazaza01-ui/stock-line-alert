@@ -1,12 +1,16 @@
 {
   "2026-10-09:drop": [
     "ASTS",
+    "LUNR",
     "SMCI"
   ],
   "2026-10-09:momentum": [
+    "AMZN",
+    "ORCL",
     "PLTR",
     "TSLA",
+    "UNH",
     "VSAT"
   ],
-  "last_summary_hour": "2026-10-09 15"
+  "last_summary_hour": "2026-10-09 18"
 }
