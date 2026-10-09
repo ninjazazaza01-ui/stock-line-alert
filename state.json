@@ -2,15 +2,18 @@
   "2026-10-09:drop": [
     "ASTS",
     "LUNR",
-    "SMCI"
+    "SMCI",
+    "SNDK"
   ],
   "2026-10-09:momentum": [
     "AMZN",
+    "MSFT",
+    "NTAP",
     "ORCL",
     "PLTR",
     "TSLA",
     "UNH",
     "VSAT"
   ],
-  "last_summary_hour": "2026-10-09 18"
+  "last_summary_hour": "2026-10-09 22"
 }
