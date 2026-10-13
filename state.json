@@ -1,15 +1,23 @@
 {
   "2026-10-13:drop": [
+    "ASML",
+    "ASTS",
+    "CRWV",
+    "ECHO",
     "INTC",
+    "JNJ",
+    "LUNR",
     "MU",
     "RKLB",
     "SMCI",
     "SNDK",
+    "SPCX",
     "STX",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
   "2026-10-13:momentum": [
     "META"
   ],
-  "last_summary_hour": "2026-10-13 02"
+  "last_summary_hour": "2026-10-13 15"
 }
