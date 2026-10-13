@@ -1,17 +1,15 @@
 {
-  "2026-10-12:drop": [
+  "2026-10-13:drop": [
     "INTC",
     "MU",
-    "ORCL",
     "RKLB",
     "SMCI",
     "SNDK",
     "STX",
     "VSAT"
   ],
-  "2026-10-12:momentum": [
-    "ASTS",
+  "2026-10-13:momentum": [
     "META"
   ],
-  "last_summary_hour": "2026-10-12 21"
+  "last_summary_hour": "2026-10-13 02"
 }
