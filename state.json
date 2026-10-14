@@ -1,24 +1,8 @@
 {
-  "2026-10-13:drop": [
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "JNJ",
-    "LUNR",
-    "MU",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-10-13:momentum": [
+  "2026-10-14:drop": [],
+  "2026-10-14:momentum": [
     "META",
     "ORCL"
   ],
-  "last_summary_hour": "2026-10-13 23"
+  "last_summary_hour": "2026-10-14 13"
 }
