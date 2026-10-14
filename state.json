@@ -1,6 +1,7 @@
 {
   "2026-10-14:drop": [
     "AMD",
+    "ASML",
     "ASTS",
     "AVGO",
     "CRWV",
@@ -22,11 +23,12 @@
     "WDC"
   ],
   "2026-10-14:momentum": [
+    "JNJ",
     "LLY",
     "META",
     "ORCL",
     "PFE",
     "UNH"
   ],
-  "last_summary_hour": "2026-10-14 18"
+  "last_summary_hour": "2026-10-14 21"
 }
