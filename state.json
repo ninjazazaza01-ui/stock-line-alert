@@ -1,8 +1,32 @@
 {
-  "2026-10-14:drop": [],
-  "2026-10-14:momentum": [
+  "2026-10-14:drop": [
+    "AMD",
+    "ASTS",
+    "AVGO",
+    "CRWV",
+    "ECHO",
+    "INTC",
+    "LUNR",
     "META",
-    "ORCL"
+    "MU",
+    "NTAP",
+    "NVDA",
+    "ORCL",
+    "PLTR",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "TSM",
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-10-14 13"
+  "2026-10-14:momentum": [
+    "LLY",
+    "META",
+    "ORCL",
+    "PFE",
+    "UNH"
+  ],
+  "last_summary_hour": "2026-10-14 17"
 }
