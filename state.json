@@ -1,5 +1,20 @@
 {
-  "2026-10-16:drop": [],
+  "2026-10-16:drop": [
+    "ASTS",
+    "CRWV",
+    "INTC",
+    "LUNR",
+    "MU",
+    "NTAP",
+    "ORCL",
+    "PLTR",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "VSAT",
+    "WDC"
+  ],
   "2026-10-16:momentum": [
     "ASTS",
     "CRWV",
@@ -8,5 +23,5 @@
     "ORCL",
     "UNH"
   ],
-  "last_summary_hour": "2026-10-16 13"
+  "last_summary_hour": "2026-10-16 17"
 }
