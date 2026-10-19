@@ -1,11 +1,19 @@
 {
   "2026-10-19:drop": [],
   "2026-10-19:momentum": [
+    "AMD",
     "AMZN",
+    "ASTS",
     "CRWV",
+    "INTC",
+    "MU",
+    "PLTR",
     "SNDK",
+    "STX",
     "TSLA",
-    "TSM"
+    "TSM",
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-10-19 15"
+  "last_summary_hour": "2026-10-19 19"
 }
