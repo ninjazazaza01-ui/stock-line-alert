@@ -1,8 +1,22 @@
 {
   "2026-10-21:drop": [
     "CRWV",
+    "SMCI",
     "SNDK"
   ],
-  "2026-10-21:momentum": [],
-  "last_summary_hour": "2026-10-21 13"
+  "2026-10-21:momentum": [
+    "AMD",
+    "ASML",
+    "ECHO",
+    "LUNR",
+    "META",
+    "MU",
+    "RKLB",
+    "SMCI",
+    "SPCX",
+    "STX",
+    "TSLA",
+    "WDC"
+  ],
+  "last_summary_hour": "2026-10-21 17"
 }
