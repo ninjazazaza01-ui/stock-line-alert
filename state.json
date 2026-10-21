@@ -1,21 +1,5 @@
 {
-  "2026-10-20:drop": [],
-  "2026-10-20:momentum": [
-    "AMZN",
-    "ASTS",
-    "CRWV",
-    "INTC",
-    "JNJ",
-    "LLY",
-    "MU",
-    "PFE",
-    "PLTR",
-    "SNDK",
-    "STX",
-    "TSLA",
-    "UNH",
-    "VSAT",
-    "WDC"
-  ],
-  "last_summary_hour": "2026-10-20 21"
+  "2026-10-21:drop": [],
+  "2026-10-21:momentum": [],
+  "last_summary_hour": "2026-10-21 00"
 }
