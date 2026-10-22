@@ -4,6 +4,7 @@
     "AMZN",
     "ASML",
     "ASTS",
+    "AVGO",
     "CRWV",
     "ECHO",
     "INTC",
@@ -22,7 +23,8 @@
     "WDC"
   ],
   "2026-10-22:momentum": [
+    "JNJ",
     "LLY"
   ],
-  "last_summary_hour": "2026-10-22 18"
+  "last_summary_hour": "2026-10-22 21"
 }
