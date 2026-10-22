@@ -1,11 +1,28 @@
 {
   "2026-10-22:drop": [
+    "AMD",
+    "AMZN",
+    "ASML",
+    "ASTS",
     "CRWV",
+    "ECHO",
+    "INTC",
+    "LUNR",
     "META",
+    "MU",
+    "NVDA",
     "ORCL",
+    "RKLB",
     "SMCI",
+    "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
+    "VSAT",
     "WDC"
   ],
-  "2026-10-22:momentum": [],
-  "last_summary_hour": "2026-10-22 13"
+  "2026-10-22:momentum": [
+    "LLY"
+  ],
+  "last_summary_hour": "2026-10-22 17"
 }
