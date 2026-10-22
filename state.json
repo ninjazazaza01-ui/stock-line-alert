@@ -1,9 +1,11 @@
 {
   "2026-10-22:drop": [
     "CRWV",
+    "META",
     "ORCL",
-    "SMCI"
+    "SMCI",
+    "WDC"
   ],
   "2026-10-22:momentum": [],
-  "last_summary_hour": "2026-10-22 00"
+  "last_summary_hour": "2026-10-22 13"
 }
