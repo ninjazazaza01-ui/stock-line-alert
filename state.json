@@ -1,5 +1,5 @@
 {
-  "2026-10-22:drop": [
+  "2026-10-23:drop": [
     "AMD",
     "AMZN",
     "ASML",
@@ -12,7 +12,6 @@
     "META",
     "MU",
     "NVDA",
-    "ORCL",
     "RKLB",
     "SMCI",
     "SNDK",
@@ -22,9 +21,6 @@
     "VSAT",
     "WDC"
   ],
-  "2026-10-22:momentum": [
-    "JNJ",
-    "LLY"
-  ],
-  "last_summary_hour": "2026-10-22 21"
+  "2026-10-23:momentum": [],
+  "last_summary_hour": "2026-10-23 00"
 }
