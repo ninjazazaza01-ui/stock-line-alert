@@ -21,6 +21,9 @@
     "VSAT",
     "WDC"
   ],
-  "2026-10-23:momentum": [],
-  "last_summary_hour": "2026-10-23 00"
+  "2026-10-23:momentum": [
+    "JNJ",
+    "LLY"
+  ],
+  "last_summary_hour": "2026-10-23 13"
 }
