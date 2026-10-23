@@ -8,6 +8,7 @@
     "CRWV",
     "ECHO",
     "INTC",
+    "LLY",
     "LUNR",
     "META",
     "MU",
@@ -22,8 +23,10 @@
     "WDC"
   ],
   "2026-10-23:momentum": [
+    "ECHO",
     "JNJ",
-    "LLY"
+    "LLY",
+    "MU"
   ],
-  "last_summary_hour": "2026-10-23 13"
+  "last_summary_hour": "2026-10-23 17"
 }
