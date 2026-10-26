@@ -2,10 +2,13 @@
   "2026-10-26:drop": [],
   "2026-10-26:momentum": [
     "AMD",
+    "AVGO",
     "CRWV",
     "INTC",
     "MU",
+    "NTAP",
     "NVDA",
+    "RKLB",
     "SNDK",
     "STX",
     "TSLA",
@@ -13,5 +16,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-10-26 19"
+  "last_summary_hour": "2026-10-26 23"
 }
