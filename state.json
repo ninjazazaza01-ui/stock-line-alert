@@ -1,5 +1,22 @@
 {
   "2026-10-27:drop": [],
-  "2026-10-27:momentum": [],
-  "last_summary_hour": "2026-10-27 14"
+  "2026-10-27:momentum": [
+    "AMD",
+    "ASML",
+    "ASTS",
+    "AVGO",
+    "CRWV",
+    "INTC",
+    "LUNR",
+    "ORCL",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "STX",
+    "TSLA",
+    "TSM",
+    "VSAT",
+    "WDC"
+  ],
+  "last_summary_hour": "2026-10-27 18"
 }
