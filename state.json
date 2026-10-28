@@ -2,6 +2,16 @@
   "2026-10-28:drop": [
     "SPCX"
   ],
-  "2026-10-28:momentum": [],
-  "last_summary_hour": "2026-10-28 14"
+  "2026-10-28:momentum": [
+    "AMD",
+    "CRWV",
+    "ECHO",
+    "MU",
+    "ORCL",
+    "SNDK",
+    "STX",
+    "VSAT",
+    "WDC"
+  ],
+  "last_summary_hour": "2026-10-28 18"
 }
