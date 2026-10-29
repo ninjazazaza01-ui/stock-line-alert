@@ -1,9 +1,15 @@
 {
   "2026-10-29:drop": [
-    "MSFT"
+    "AMZN",
+    "GOOGL",
+    "MSFT",
+    "MU"
   ],
   "2026-10-29:momentum": [
-    "LLY"
+    "ASTS",
+    "ECHO",
+    "LLY",
+    "META"
   ],
-  "last_summary_hour": "2026-10-29 15"
+  "last_summary_hour": "2026-10-29 18"
 }
