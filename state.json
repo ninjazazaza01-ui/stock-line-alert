@@ -1,19 +1,9 @@
 {
-  "2026-10-28:drop": [
-    "SPCX"
+  "2026-10-29:drop": [
+    "MSFT"
   ],
-  "2026-10-28:momentum": [
-    "AMD",
-    "AVGO",
-    "CRWV",
-    "ECHO",
-    "MU",
-    "ORCL",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "VSAT",
-    "WDC"
+  "2026-10-29:momentum": [
+    "LLY"
   ],
-  "last_summary_hour": "2026-10-28 22"
+  "last_summary_hour": "2026-10-29 15"
 }
