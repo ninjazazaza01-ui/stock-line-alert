@@ -1,13 +1,27 @@
 {
   "2026-10-30:drop": [
+    "AMD",
+    "ASML",
+    "ASTS",
+    "AVGO",
     "CRWV",
     "INTC",
+    "LUNR",
+    "MU",
     "NTAP",
+    "NVDA",
+    "ORCL",
     "PLTR",
-    "SNDK"
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
+    "WDC"
   ],
   "2026-10-30:momentum": [
     "LLY"
   ],
-  "last_summary_hour": "2026-10-30 14"
+  "last_summary_hour": "2026-10-30 18"
 }
