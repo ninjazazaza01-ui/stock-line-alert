@@ -5,13 +5,16 @@
     "CRWV",
     "INTC",
     "LUNR",
+    "MSFT",
     "MU",
     "NTAP",
     "ORCL",
+    "PLTR",
     "RKLB",
     "SMCI",
     "SNDK",
     "STX",
+    "VSAT",
     "WDC"
   ],
   "2026-11-02:momentum": [
@@ -20,5 +23,5 @@
     "SPCX",
     "TSLA"
   ],
-  "last_summary_hour": "2026-11-02 18"
+  "last_summary_hour": "2026-11-02 22"
 }
