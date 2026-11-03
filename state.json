@@ -1,27 +1,7 @@
 {
-  "2026-11-02:drop": [
-    "AMD",
-    "ASTS",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "MSFT",
-    "MU",
-    "NTAP",
-    "ORCL",
-    "PLTR",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "VSAT",
-    "WDC"
+  "2026-11-03:drop": [],
+  "2026-11-03:momentum": [
+    "ORCL"
   ],
-  "2026-11-02:momentum": [
-    "AMZN",
-    "ECHO",
-    "SPCX",
-    "TSLA"
-  ],
-  "last_summary_hour": "2026-11-02 22"
+  "last_summary_hour": "2026-11-03 15"
 }
