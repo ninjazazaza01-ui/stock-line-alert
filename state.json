@@ -1,7 +1,14 @@
 {
   "2026-11-03:drop": [],
   "2026-11-03:momentum": [
-    "ORCL"
+    "AMD",
+    "AMZN",
+    "ECHO",
+    "NVDA",
+    "ORCL",
+    "SMCI",
+    "SNDK",
+    "SPCX"
   ],
-  "last_summary_hour": "2026-11-03 15"
+  "last_summary_hour": "2026-11-03 19"
 }
