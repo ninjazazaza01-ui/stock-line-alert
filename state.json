@@ -1,9 +1,8 @@
 {
-  "2026-11-04:drop": [
+  "2026-11-05:drop": [
     "AMD",
     "ASML",
     "ASTS",
-    "AVGO",
     "CRWV",
     "ECHO",
     "INTC",
@@ -11,41 +10,21 @@
     "MU",
     "NTAP",
     "NVDA",
-    "PFE",
     "RKLB",
     "SMCI",
     "SNDK",
     "SPCX",
     "STX",
-    "TSM",
     "VSAT",
     "WDC"
   ],
-  "2026-11-04:momentum": [
+  "2026-11-05:momentum": [
     "AAPL",
-    "AMD",
     "AMZN",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
     "GOOGL",
     "JNJ",
-    "LUNR",
-    "META",
     "MSFT",
-    "MU",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "PFE",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "STX",
-    "UNH",
-    "WDC"
+    "PFE"
   ],
-  "last_summary_hour": "2026-11-04 20"
+  "last_summary_hour": "2026-11-05 00"
 }
