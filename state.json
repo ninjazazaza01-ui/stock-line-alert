@@ -3,18 +3,24 @@
     "AMD",
     "ASML",
     "ASTS",
+    "AVGO",
     "CRWV",
     "ECHO",
     "INTC",
     "LUNR",
+    "META",
     "MU",
     "NTAP",
     "NVDA",
+    "ORCL",
+    "PLTR",
     "RKLB",
     "SMCI",
     "SNDK",
     "SPCX",
     "STX",
+    "TSLA",
+    "TSM",
     "VSAT",
     "WDC"
   ],
@@ -26,5 +32,5 @@
     "MSFT",
     "PFE"
   ],
-  "last_summary_hour": "2026-11-05 00"
+  "last_summary_hour": "2026-11-05 16"
 }
