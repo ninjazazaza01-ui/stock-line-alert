@@ -7,8 +7,10 @@
     "CRWV",
     "ECHO",
     "INTC",
+    "LLY",
     "LUNR",
     "META",
+    "MSFT",
     "MU",
     "NTAP",
     "NVDA",
@@ -21,6 +23,7 @@
     "STX",
     "TSLA",
     "TSM",
+    "UNH",
     "VSAT",
     "WDC"
   ],
@@ -32,5 +35,5 @@
     "MSFT",
     "PFE"
   ],
-  "last_summary_hour": "2026-11-05 16"
+  "last_summary_hour": "2026-11-05 20"
 }
