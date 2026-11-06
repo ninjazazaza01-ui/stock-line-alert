@@ -27,6 +27,13 @@
     "VSAT",
     "WDC"
   ],
-  "2026-11-06:momentum": [],
-  "last_summary_hour": "2026-11-06 01"
+  "2026-11-06:momentum": [
+    "AMD",
+    "ASTS",
+    "MU",
+    "NVDA",
+    "SNDK",
+    "TSM"
+  ],
+  "last_summary_hour": "2026-11-06 15"
 }
