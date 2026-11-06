@@ -1,5 +1,5 @@
 {
-  "2026-11-05:drop": [
+  "2026-11-06:drop": [
     "AMD",
     "ASML",
     "ASTS",
@@ -27,13 +27,6 @@
     "VSAT",
     "WDC"
   ],
-  "2026-11-05:momentum": [
-    "AAPL",
-    "AMZN",
-    "GOOGL",
-    "JNJ",
-    "MSFT",
-    "PFE"
-  ],
-  "last_summary_hour": "2026-11-05 20"
+  "2026-11-06:momentum": [],
+  "last_summary_hour": "2026-11-06 01"
 }
