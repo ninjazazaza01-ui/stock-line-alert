@@ -3,21 +3,32 @@
     "NVDA"
   ],
   "2026-11-09:momentum": [
+    "AAPL",
     "AMD",
     "AMZN",
     "ASML",
     "ASTS",
     "AVGO",
+    "CRWV",
+    "ECHO",
     "INTC",
+    "JNJ",
     "LLY",
     "LUNR",
+    "META",
+    "MSFT",
     "MU",
+    "NTAP",
+    "ORCL",
+    "PLTR",
     "RKLB",
     "SNDK",
     "SPCX",
     "STX",
+    "TSLA",
     "TSM",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-11-09 18"
+  "last_summary_hour": "2026-11-09 22"
 }
