@@ -1,50 +1,23 @@
 {
-  "2026-11-06:drop": [
+  "2026-11-09:drop": [
+    "NVDA"
+  ],
+  "2026-11-09:momentum": [
     "AMD",
+    "AMZN",
     "ASML",
     "ASTS",
     "AVGO",
-    "CRWV",
-    "ECHO",
     "INTC",
     "LLY",
     "LUNR",
-    "META",
-    "MSFT",
     "MU",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "PLTR",
     "RKLB",
-    "SMCI",
     "SNDK",
     "SPCX",
     "STX",
-    "TSLA",
-    "TSM",
-    "UNH",
-    "VSAT",
-    "WDC"
-  ],
-  "2026-11-06:momentum": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "MU",
-    "NVDA",
-    "PLTR",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "SPCX",
-    "TSLA",
     "TSM",
     "VSAT"
   ],
-  "last_summary_hour": "2026-11-06 23"
+  "last_summary_hour": "2026-11-09 18"
 }
