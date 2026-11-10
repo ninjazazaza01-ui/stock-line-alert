@@ -1,34 +1,13 @@
 {
-  "2026-11-09:drop": [
-    "NVDA"
-  ],
-  "2026-11-09:momentum": [
-    "AAPL",
-    "AMD",
-    "AMZN",
-    "ASML",
+  "2026-11-10:drop": [
     "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "JNJ",
-    "LLY",
-    "LUNR",
-    "META",
-    "MSFT",
     "MU",
-    "NTAP",
-    "ORCL",
-    "PLTR",
-    "RKLB",
+    "NVDA",
     "SNDK",
-    "SPCX",
-    "STX",
-    "TSLA",
-    "TSM",
-    "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-11-09 22"
+  "2026-11-10:momentum": [
+    "AMD"
+  ],
+  "last_summary_hour": "2026-11-10 16"
 }
