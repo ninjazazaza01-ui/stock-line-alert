@@ -1,20 +1,15 @@
 {
-  "2026-11-10:drop": [
+  "2026-11-11:drop": [
     "ASTS",
-    "CRWV",
-    "INTC",
-    "LUNR",
-    "MU",
     "NVDA",
     "SMCI",
-    "SNDK",
-    "WDC"
+    "SNDK"
   ],
-  "2026-11-10:momentum": [
-    "AMD",
+  "2026-11-11:momentum": [
     "AVGO",
     "ECHO",
-    "RKLB"
+    "RKLB",
+    "TSM"
   ],
-  "last_summary_hour": "2026-11-10 20"
+  "last_summary_hour": "2026-11-11 00"
 }
