@@ -1,29 +1,5 @@
 {
-  "2026-11-11:drop": [
-    "ASTS",
-    "NVDA",
-    "SMCI",
-    "SNDK"
-  ],
-  "2026-11-11:momentum": [
-    "AMD",
-    "ASML",
-    "ASTS",
-    "AVGO",
-    "CRWV",
-    "ECHO",
-    "INTC",
-    "LUNR",
-    "MU",
-    "NTAP",
-    "NVDA",
-    "ORCL",
-    "RKLB",
-    "SMCI",
-    "SNDK",
-    "STX",
-    "TSM",
-    "WDC"
-  ],
-  "last_summary_hour": "2026-11-11 20"
+  "2026-11-12:drop": [],
+  "2026-11-12:momentum": [],
+  "last_summary_hour": "2026-11-12 01"
 }
