@@ -1,5 +1,12 @@
 {
-  "2026-11-12:drop": [],
-  "2026-11-12:momentum": [],
-  "last_summary_hour": "2026-11-12 01"
+  "2026-11-12:drop": [
+    "SMCI"
+  ],
+  "2026-11-12:momentum": [
+    "AMD",
+    "AVGO",
+    "LUNR",
+    "SPCX"
+  ],
+  "last_summary_hour": "2026-11-12 16"
 }
