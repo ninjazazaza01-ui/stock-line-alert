@@ -1,14 +1,8 @@
 {
-  "2026-11-12:drop": [
+  "2026-11-13:drop": [
+    "ASTS",
     "SMCI"
   ],
-  "2026-11-12:momentum": [
-    "AMD",
-    "AVGO",
-    "GOOGL",
-    "LUNR",
-    "SPCX",
-    "TSLA"
-  ],
-  "last_summary_hour": "2026-11-12 20"
+  "2026-11-13:momentum": [],
+  "last_summary_hour": "2026-11-13 01"
 }
