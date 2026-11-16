@@ -1,8 +1,10 @@
 {
   "2026-11-16:drop": [
+    "AMD",
     "ASML",
     "ASTS",
     "CRWV",
+    "GOOGL",
     "INTC",
     "LUNR",
     "MU",
@@ -16,5 +18,5 @@
     "VSAT"
   ],
   "2026-11-16:momentum": [],
-  "last_summary_hour": "2026-11-16 18"
+  "last_summary_hour": "2026-11-16 22"
 }
