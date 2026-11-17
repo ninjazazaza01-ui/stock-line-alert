@@ -1,22 +1,13 @@
 {
-  "2026-11-16:drop": [
-    "AMD",
+  "2026-11-17:drop": [
     "ASML",
-    "ASTS",
-    "CRWV",
-    "GOOGL",
-    "INTC",
-    "LUNR",
+    "MSFT",
     "MU",
-    "NVDA",
     "ORCL",
-    "RKLB",
     "SMCI",
-    "SNDK",
-    "STX",
     "TSM",
-    "VSAT"
+    "UNH"
   ],
-  "2026-11-16:momentum": [],
-  "last_summary_hour": "2026-11-16 22"
+  "2026-11-17:momentum": [],
+  "last_summary_hour": "2026-11-17 17"
 }
