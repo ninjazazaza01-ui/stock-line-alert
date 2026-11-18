@@ -1,19 +1,16 @@
 {
-  "2026-11-17:drop": [
-    "ASML",
+  "2026-11-18:drop": [
     "ASTS",
     "LUNR",
-    "MSFT",
-    "MU",
     "ORCL",
     "RKLB",
     "SMCI",
     "TSM",
     "UNH"
   ],
-  "2026-11-17:momentum": [
+  "2026-11-18:momentum": [
     "AVGO",
     "SPCX"
   ],
-  "last_summary_hour": "2026-11-17 21"
+  "last_summary_hour": "2026-11-18 03"
 }
