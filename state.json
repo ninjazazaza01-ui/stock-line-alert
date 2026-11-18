@@ -18,8 +18,12 @@
     "WDC"
   ],
   "2026-11-18:momentum": [
+    "AMD",
+    "AMZN",
     "AVGO",
-    "SPCX"
+    "SPCX",
+    "STX",
+    "VSAT"
   ],
-  "last_summary_hour": "2026-11-18 17"
+  "last_summary_hour": "2026-11-18 21"
 }
