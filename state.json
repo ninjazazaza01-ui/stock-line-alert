@@ -1,16 +1,25 @@
 {
   "2026-11-18:drop": [
+    "ASML",
     "ASTS",
+    "CRWV",
+    "INTC",
     "LUNR",
+    "MU",
+    "NVDA",
     "ORCL",
+    "PLTR",
     "RKLB",
     "SMCI",
+    "SNDK",
+    "STX",
     "TSM",
-    "UNH"
+    "UNH",
+    "WDC"
   ],
   "2026-11-18:momentum": [
     "AVGO",
     "SPCX"
   ],
-  "last_summary_hour": "2026-11-18 03"
+  "last_summary_hour": "2026-11-18 17"
 }
