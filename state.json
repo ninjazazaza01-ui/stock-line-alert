@@ -1,13 +1,18 @@
 {
   "2026-11-19:drop": [
     "AMD",
+    "AMZN",
+    "ASML",
     "ASTS",
     "CRWV",
     "ECHO",
+    "GOOGL",
     "LUNR",
+    "META",
     "MU",
     "NVDA",
     "ORCL",
+    "PLTR",
     "RKLB",
     "SMCI",
     "SNDK",
@@ -22,7 +27,8 @@
     "AMZN",
     "AVGO",
     "STX",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
-  "last_summary_hour": "2026-11-19 17"
+  "last_summary_hour": "2026-11-19 21"
 }
