@@ -3,12 +3,16 @@
     "AMD",
     "AMZN",
     "ASML",
+    "ASTS",
+    "AVGO",
     "CRWV",
     "ECHO",
     "GOOGL",
+    "INTC",
     "LUNR",
     "META",
     "MU",
+    "NTAP",
     "NVDA",
     "ORCL",
     "PLTR",
@@ -16,10 +20,15 @@
     "SMCI",
     "SNDK",
     "SPCX",
+    "STX",
+    "TSLA",
     "TSM",
     "UNH",
-    "VSAT"
+    "VSAT",
+    "WDC"
   ],
-  "2026-11-20:momentum": [],
-  "last_summary_hour": "2026-11-20 02"
+  "2026-11-20:momentum": [
+    "UNH"
+  ],
+  "last_summary_hour": "2026-11-20 16"
 }
