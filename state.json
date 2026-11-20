@@ -1,9 +1,8 @@
 {
-  "2026-11-19:drop": [
+  "2026-11-20:drop": [
     "AMD",
     "AMZN",
     "ASML",
-    "ASTS",
     "CRWV",
     "ECHO",
     "GOOGL",
@@ -17,18 +16,10 @@
     "SMCI",
     "SNDK",
     "SPCX",
-    "STX",
     "TSM",
     "UNH",
     "VSAT"
   ],
-  "2026-11-19:momentum": [
-    "AMD",
-    "AMZN",
-    "AVGO",
-    "STX",
-    "VSAT",
-    "WDC"
-  ],
-  "last_summary_hour": "2026-11-19 21"
+  "2026-11-20:momentum": [],
+  "last_summary_hour": "2026-11-20 02"
 }
