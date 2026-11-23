@@ -1,5 +1,7 @@
 {
-  "2026-11-21:drop": [
+  "2026-11-23:drop": [],
+  "2026-11-23:momentum": [
+    "AAPL",
     "AMD",
     "AMZN",
     "ASML",
@@ -11,6 +13,7 @@
     "INTC",
     "LUNR",
     "META",
+    "MSFT",
     "MU",
     "NTAP",
     "NVDA",
@@ -18,14 +21,11 @@
     "PLTR",
     "RKLB",
     "SMCI",
-    "SNDK",
     "SPCX",
     "STX",
     "TSLA",
     "TSM",
-    "VSAT",
     "WDC"
   ],
-  "2026-11-21:momentum": [],
-  "last_summary_hour": "2026-11-21 02"
+  "last_summary_hour": "2026-11-23 19"
 }
