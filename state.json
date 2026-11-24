@@ -1,5 +1,23 @@
 {
-  "2026-11-24:drop": [],
+  "2026-11-24:drop": [
+    "AMD",
+    "ASTS",
+    "CRWV",
+    "ECHO",
+    "INTC",
+    "LUNR",
+    "MU",
+    "NTAP",
+    "NVDA",
+    "ORCL",
+    "RKLB",
+    "SMCI",
+    "SNDK",
+    "SPCX",
+    "STX",
+    "TSM",
+    "WDC"
+  ],
   "2026-11-24:momentum": [
     "AMD",
     "AMZN",
@@ -10,6 +28,7 @@
     "ECHO",
     "GOOGL",
     "INTC",
+    "LLY",
     "LUNR",
     "META",
     "MU",
@@ -23,8 +42,9 @@
     "STX",
     "TSLA",
     "TSM",
+    "UNH",
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-11-24 00"
+  "last_summary_hour": "2026-11-24 19"
 }
