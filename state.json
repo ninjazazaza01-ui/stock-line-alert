@@ -1,7 +1,9 @@
 {
   "2026-11-24:drop": [
     "AMD",
+    "ASML",
     "ASTS",
+    "AVGO",
     "CRWV",
     "ECHO",
     "INTC",
@@ -28,6 +30,7 @@
     "ECHO",
     "GOOGL",
     "INTC",
+    "JNJ",
     "LLY",
     "LUNR",
     "META",
@@ -35,6 +38,7 @@
     "NTAP",
     "NVDA",
     "ORCL",
+    "PFE",
     "PLTR",
     "RKLB",
     "SMCI",
@@ -46,5 +50,5 @@
     "VSAT",
     "WDC"
   ],
-  "last_summary_hour": "2026-11-24 19"
+  "last_summary_hour": "2026-11-24 22"
 }
