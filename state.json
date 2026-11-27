@@ -1,15 +1,12 @@
 {
-  "2026-11-26:drop": [
-    "MU",
-    "ORCL",
-    "SNDK"
-  ],
-  "2026-11-26:momentum": [
+  "2026-11-27:drop": [],
+  "2026-11-27:momentum": [
     "ASTS",
+    "CRWV",
+    "ECHO",
     "LUNR",
-    "META",
-    "RKLB",
-    "SMCI"
+    "MU",
+    "TSLA"
   ],
-  "last_summary_hour": "2026-11-26 22"
+  "last_summary_hour": "2026-11-27 17"
 }
